@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Геннадий Никитенко](https://up.htmlacademy.ru/adaptive/10/user/10554).
-* Наставник: [Маргарита Игнатьева].
+* Наставник: Маргарита Игнатьева.
 
 ---
 

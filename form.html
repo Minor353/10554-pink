@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Academy: Пинк-форма</title>
+</head>
+<body>
+    <header class="page-header">
+          <div class="page-header__logo">
+              <img src="" alt="Pink logo">
+          </div>
+          <nav class="main-nav  main-nav--closed  main-nav--nojs">">
+              <button class="main-nav__toggle" type="button">Open menu</button>
+              <div class="main-nav__wrapper">
+                  <ul class="main-nav__items">
+                      <li class="main-nav__item">Главная</li>
+                      <li class="main-nav__item">Фотографии</li>
+                      <li class="main-nav__item">Конкурс</li>
+                      <li class="main-nav__item">HTML Academy</li>
+                  </ul>
+              </div>
+          </nav>
+      </header>
+      
+      <section class="contest">
+          <div class="contest__title">
+              Конкурс на самое безбашенное путешествие с Пинк
+          </div>
+          <div class="contest__description">
+              Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! 
+          </div>
+          
+          <form class="contest__form" action="https://echo.htmlacademy.ru/" method="post">
+            
+             <fieldset class="contest__user-date">
+                  <label class="contest__form-label">Фамилия
+                      <input class="contest__input" type="text" name="second-name" placeholder="Укажите фамилию*" id="second-name" required>
+                  </label>
+              
+                  <lable class="contest__form-label">Имя:
+                      <input class="contest__input" type="text" name="first-name" placeholder="Введите ваше имя*" id="first-name" required>
+                  </lable>
+              
+                  <label class="contest__form-label">Отчество:
+                      <input class="contest__input" type="text" name="middle-name" placeholder="Ну и отчество тоже" id="middle-name">
+                  </label>
+              </fieldset>
+                
+              <fieldset class="contest__user-date">
+                    <p class="contest__form-legend">Ваши безбашенные достижения в путешествии</p>
+                  <label class="contest__label-chekbox">
+                      <input class="contest__chekbox" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" checked>
+                      <span class="contest__chekbox-indicator"></span>
+                      Сделал селфи с акулой
+                  </label>
+                  
+                  <label class="contest__label-chekbox">
+                      <input class="contest__chekbox" type="checkbox" name="Burned-on-the-beach" id="Burned-on-the-beach" checked>
+                      <span class="contest__chekbox-indicator"></span>
+                      Обгорел на пляже
+                  </label>
+                  
+                  <label class="contest__label-chekbox">
+                      <input class="contest__chekbox" type="checkbox" name="Seen-Chuck-Norris" id="Seen-Chuck-Norris">
+                      <span class="contest__chekbox-indicator"></span>
+                      Видел Чака Норриса
+                  </label>
+                  
+                  <label class="contest__label-chekbox">
+                      <input class="contest__chekbox" type="checkbox" name="bought-souvenirs" id="bought-souvenirs">
+                      <span class="contest__chekbox-indicator"></span>
+                      Накупили сувениров
+                  </label>
+                  
+                  <label class="contest__label-chekbox">
+                      <input class="contest__chekbox" type="checkbox" name="keep-tower" id="keep-tower" checked>
+                      <span class="contest__chekbox-indicator"></span>
+                      Удержал башню
+                  </label>
+                  
+                  <label class="contest__label-chekbox">
+                      <input class="contest__chekbox" type="checkbox" name="defeat-of-hotel" id="defeat-of-hotel">
+                      <span class="contest__chekbox-indicator"></span>
+                      Разгромил отель
+                  </label>
+              </fieldset>
+              
+              <fieldset class="contest__user-date">
+                  <label class="contest__form-label">Номер телефона
+                      <input class="contest__input" type="tel" name="tel-num" id="tel-num" placeholder="Номер, пожалуйста">
+                  </label>
+                  
+                  <label class="contest__form-label">Адрес почты
+                      <input class="contest__input" type="email" name="email-address" id="email" placeholder="Введите почту*" required>
+                  </label>
+              </fieldset>
+              
+              <fieldset class="contest__user-date">
+                  <p class="contest__form-legend">С каким приложением путешествовали?</p>
+                  <label class="contest__label-radio">
+                      <input class="contest__radio" type="radio" name="soft-type" value="IOS">
+                      <span class="contest__radio-indicator"></span>
+                      Pink для IOS
+                  </label>
+                  
+                  <label class="contest__label-radio">
+                      <input class="contest__radio" type="radio" name="soft-type" value="Android">
+                      <span class="contest__radio-indicator"></span>
+                      Pink для Android
+                  </label>
+                  
+                  <label class="contest__label-radio">
+                      <input class="contest__radio" type="radio" name="soft-type" value="Windows">
+                      <span class="contest__radio-indicator"></span>
+                      Windows Phone
+                  </label>
+              </fieldset>
+              
+              <fieldset class="contest__user-date">
+                  <p class="contest__form-legend">Опишите свои эмоции</p>
+                  <textarea class="contest__input" name="recall" id="recall" cols="30" rows="10" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+              </fieldset>
+              
+              <button class="contest__btn" type="submit">Отправить форму</button>
+          </form>
+          <p class="contest__reminder">-Обязательные поля</p>
+      </section>
+      
+      <footer class="page-footer">
+          <div class="page-footer__wrapper">
+              <div class="page-footer__link-logo">
+                  <a href="index.html"><img class="page-footer__logo" src="#" alt="Pink logo"></a>
+              </div>
+              
+              <div class="socials">
+                  <a class="socials__link socials__link--tw" href="#">twitter</a>
+                  <a class="socials__link socials__link--fb" href="#">facebook</a>
+                  <a class="socials__link socials__link--yt" href="#">youtube</a>  
+              </div>
+              
+              <div class="page-footer__copyright">
+                  Разработано: <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+              </div>
+          </div>
+    </footer>
+</body>
+</html>

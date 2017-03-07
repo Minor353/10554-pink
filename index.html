@@ -5,8 +5,146 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+      <header class="page-header">
+          <div class="page-header__logo">
+              <img src="" alt="Pink logo">
+          </div>
+          <nav class="main-nav  main-nav--closed  main-nav--nojs">">
+              <button class="main-nav__toggle" type="button">Open menu</button>
+              <div class="main-nav__wrapper">
+                  <ul class="main-nav__items">
+                      <li class="main-nav__item">Главная</li>
+                      <li class="main-nav__item">Фотографии</li>
+                      <li class="main-nav__item">Конкурс</li>
+                      <li class="main-nav__item">HTML Academy</li>
+                  </ul>
+              </div>
+          </nav>
+      </header>
+      
+      <section class="download-page">
+          <div class="download-page__image">
+              <img src="http://placehold.it/150x100" alt="Pink image">
+          </div>
+          <a href="#" class="download-page__link">Скачать приложение</a>
+          <a href="#" class="download-page__link">Apple</a>
+          <a href="#" class="download-page__link">Android</a>
+          <a href="#" class="download-page__link">Win</a>
+          <p class="download-page__description">
+              Дотупно для iPhone, iPad, Android,
+              Windows Phone, OS X, Windows 8
+          </p>
+      </section>
+      
+      <section class="features">
+          <div class="features__titles">
+              <p class="features__title">
+                  Устали от серости мегаполиса?
+              </p>
+              <p class="features__title">
+                  Нам есть, что вам предложить!
+              </p>
+          </div>
+          
+          <div class="features__item">
+              <b class="features__item-caption">Поднимает настроение</b>
+              <p class="features__item-description">
+                  Приложение позволит вам победить
+                  осеннюю хандру и депресию
+                  буквально в несколько кликов!
+              </p>
+          </div>
+          <div class="features__item">
+              <b class="features__item-caption">Меняет мир вокруг</b>
+              <p class="features__item-description">
+                  Сделайте снимок и украсьте его
+                  смайликом или текстовой подписью,
+                  чтобы усилить эффект
+             </p>
+          </div>
+          <div class="features__item">
+              <b class="features__item-caption">Заводи новых друзей</b>
+              <p class="features__item-description">
+                  Ставьте лайки, комментируйте, делитесь
+                  фотографиями сс друзьями и заводите 
+                  новых
+              </p>
+          </div>
+          <div class="features__image">
+              <img src="http://placehold.it/150x100" alt="Pink image">
+          </div>
+      </section>
+      
+      <section class="reviews">
+          <div class="reviews__wrapper  slider">
+              <input class="slider__input" type="radio"  name="reviews" id="reviews-input-1" checked>
+              <input class="slider__input" type="radio"  name="reviews" id="reviews-input-2">
+              <input class="slider__input" type="radio"  name="reviews" id="reviews-input-3">
+              <ul class="reviews__items">
+                  <li class="reviews__item  slider__item">
+                      <b class="reviews__item-title">
+                          Николай Петров
+                      </b>
+                      <p class="reviews__item-description">
+                          «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+                      </p>
+                  </li>
+              </ul>
+              <div class="reviews__toggles  slider__toggles">
+                  <label class="slider__toggle" for="reviews-input-1">1</label>
+                  <label class="slider__toggle" for="reviews-input-2">2</label>
+                  <label class="slider__toggle" for="reviews-input-3">3</label>
+              </div>
+          </div>
+      </section>
+      
+      <section class="price">
+          <div class="price__wrapper  slider">
+              <input class="price__input" type="radio"  name="price" id="price-input-1">
+              <input class="price__input" type="radio"  name="price" id="price-input-2" checked>
+              <input class="price__input" type="radio"  name="price" id="price-input-3">
+              <ul class="price__item">
+                  <li class="price__title">
+                      <div class="price__item-title">Стандарт</div>
+                      <div class="price__value">3.99 USD</div>
+                  </li>
+                  <li class="price__access">
+                        Розовый фильтр
+                  </li>
+                  <li class="price__access">
+                        Самйлики
+                  </li>
+                  <li class="price__access">
+                        Комментарии
+                  </li>
+              </ul>
+              <div class="advantages__toggles  slider__toggles">
+                  <label class="slider__toggle" for="price-input-1">1</label>
+                  <label class="slider__toggle" for="price-input-2">2</label>
+                  <label class="slider__toggle" for="price-input-3">3</label>
+              </div>
+          </div>
+     </section>
+     
+     <section class="contacts">
+         <b class="contacts__title">
+             Остались вопросы? Свяжитесь с нами!
+         </b>
+         <div class="contacts__item">
+             <b class="contacts__item-title">Звоните:</b>
+             <a class="contacts__item-tel" href="tel:+78125556666">+7(812)555-66-66</a>
+         </div>
+         <div class="contacts__item">
+             <b class="contacts__item-title">Пишите:</b>
+             <a class="contacts__item-email" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+         </div>
+         <div class="contacts__item">
+             <b class="contacts__item-title">Приезжайте в гости:</b>
+             <a class="contacts__item-address" href="#">ул.Большая Конюшенна, 19/8</a>
+         </div>
+         <div class="contacts__map">
+             <img src="http://placehold.it/150x100" alt="Карта проезда">
+         </div>
+     </section>
   </body>
 </html>
