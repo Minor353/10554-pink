@@ -5,39 +5,39 @@
 /*****************************/
 
 /*Общие блоки*/
-@import "general/page-header.scss";
+@import "components/page-header.scss";
 
-@import "general/page-footer.scss";
+@import "components/page-footer.scss";
 
-@import "general/social.scss";
+@import "components/social.scss";
 
 /***************************************************/
 
 /*Блоки index*/
 
-@import "download-page.scss";
+@import "components/download-page.scss";
 
-@import "features.scss";
+@import "components/features.scss";
 
-@import "reviews.scss";
+@import "components/reviews.scss";
 
-@import "price.scss";
+@import "components/price.scss";
 
-@import "contacts.scss";
+@import "components/contacts.scss";
 
 /***************************************************/
 
 /*Блоки form*/
 
-@import "contest.scss";
+@import "components/contest.scss";
 
 /***************************************************/
 
 /*Блоки photo*/
 
-@import "user-gallery.scss";
+@import "components/user-gallery.scss";
 
-@import "photo-editor.scss";
+@import "components/photo-editor.scss";
 
 /***************************************************/
     
