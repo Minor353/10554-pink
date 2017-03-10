@@ -1,15 +1,58 @@
 /*************Mobile ver.****************/
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/opensansbold.woff);
+    src: url(../fonts/opensansbold.woff2);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .page-header {
-    border: 1px solid black;
     height: 325px;
+    font-family: OpenSansBold;
+    text-transform: uppercase;
+    background: #283645;
 }
 
+.main-nav__panel {
+    padding: 20px; 
+    border-bottom: 1px groove #000000;  
+}
+
+.main-nav__logo {
+    float: left;
+}
+
+.main-nav__toggle {
+    float: right;
+    background: url(../../img/icon-menu-cross.svg) no-repeat;
+    width: 28px;
+    height: 28px;
+    border: 0px solid ;
+}
+
+.main-nav__items {
+    padding: 0;
+}
+
+.main-nav__item {
+    list-style: none;
+    text-align: center;
+    
+}
 .main-nav__link {
     text-decoration: none;
+    line-height: 32px;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 1px groove #000000;
+    /*border-top: 1px groove #485461; */
+    display: block;
 }
 
-body {
-    background: red;
-}
+
 /****************************************/
