@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <header class="page-header">
+      <header class="page-header container">
           <nav class="main-nav  main-nav--closed  main-nav--nojs">
               <div class="main-nav__panel clearfix">
               <div class="main-nav__logo">
@@ -26,7 +26,7 @@
           </nav>
       </header>
       
-      <section class="download-page">
+      <section class="download-page container">
           <div class="download-page__background-image">
               <img class="download-page__image" src="img/iphone-hand-mobile@1x.png" alt="Pink image">
           </div>
@@ -42,16 +42,18 @@
           </div>
       </section>
       
-      <section class="features">
+      <section class="features container">
           <div class="features__titles">
-              <p class="features__title">
+              <div class="features__title">
                   Устали от серости мегаполиса?
-              </p>
-              <p class="features__title">
+              </div>
+              <div class="features__title features__title--bottom">
                   Нам есть, что вам предложить!
-              </p>
+              </div>
           </div>
           
+          <div class="features__items">
+          <div class="features__decoration"></div>
           <div class="features__item">
               <b class="features__item-caption">Поднимает настроение</b>
               <p class="features__item-description">
@@ -77,11 +79,12 @@
               </p>
           </div>
           <div class="features__image">
-              <img src="http://placehold.it/150x100" alt="Pink image">
+              <img src="img/iphone-screen-mobile@1x.png" alt="Pink image">
+          </div>
           </div>
       </section>
       
-      <section class="reviews">
+      <section class="reviews container">
           <div class="reviews__wrapper  slider">
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-1" checked>
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-2">
@@ -104,7 +107,7 @@
           </div>
       </section>
       
-      <section class="price">
+      <section class="price container">
           <div class="price__wrapper  slider">
               <input class="price__input" type="radio"  name="price" id="price-input-1">
               <input class="price__input" type="radio"  name="price" id="price-input-2" checked>
@@ -132,7 +135,7 @@
           </div>
      </section>
      
-     <section class="contacts">
+     <section class="contacts container">
          <b class="contacts__title">
              Остались вопросы? Свяжитесь с нами!
          </b>
