@@ -1,0 +1,76 @@
+/*************Mobile ver.********************/
+
+.download-page {
+    background: #1d2631;
+}
+
+.download-page__background-image {
+    position: relative; 
+    height: 395px;
+    background: url(../../img/bg-back-mobile@1x.jpg) no-repeat bottom;  
+}
+
+.download-page__image {
+    position: absolute;
+    bottom: 0;
+}
+.download-page__link{
+    text-decoration: none;
+}
+
+.download-page__link--btn {
+    display: block;
+    font-family: OpenSansBold;
+    line-height: 18px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 25px;
+    width: 275px;
+    padding: 15px 0;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.download-page__link-holder {
+    padding: 0 50px;
+}
+
+.download-page__link--apple {
+    display: inline-block;
+    font-size: 0;
+    background: url(../../img/logo-apple.svg) no-repeat center;
+    height: 56px;
+    width: 50px;
+    margin-right: 30px;
+}
+
+.download-page__link--android {
+    display: inline-block;
+    font-size: 0;
+    background: url(../../img/logo-android.svg) no-repeat bottom;
+    height: 56px;
+    width: 50px;
+    margin-right: 30px;
+}
+
+.download-page__link--win {
+    display: inline-block;
+    font-size: 0;
+    background: url(../../img/logo-microsoft.svg) no-repeat bottom;
+    height: 56px;
+    width: 50px;
+}
+
+.download-page__description {
+    font-family: OpenSansLight;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #c3c5c8;
+    padding: 35px 40px;
+    text-align: center;
+}
+/********************************************/

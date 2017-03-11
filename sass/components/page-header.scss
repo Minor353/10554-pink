@@ -1,10 +1,15 @@
-/*************Mobile ver.****************/
 @font-face {
     font-family: OpenSansBold;
     src: url(../fonts/opensansbold.woff);
     src: url(../fonts/opensansbold.woff2);
 }
 
+@font-face {
+    font-family: OpenSansLight;
+    src: url(../fonts/opensanslight.woff);
+    src: url(../fonts/opensanslight.woff2);
+}
+/*************Mobile ver.****************/
 .clearfix::after {
     content: "";
     display: table;
@@ -12,7 +17,6 @@
 }
 
 .page-header {
-    height: 325px;
     font-family: OpenSansBold;
     text-transform: uppercase;
     background: #283645;
@@ -37,6 +41,7 @@
 
 .main-nav__items {
     padding: 0;
+    margin: 0;
 }
 
 .main-nav__item {
@@ -50,7 +55,7 @@
     font-size: 18px;
     color: #ffffff;
     border-bottom: 1px groove #000000;
-    /*border-top: 1px groove #485461; */
+    padding: 15px 0;
     display: block;
 }
 
