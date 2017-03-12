@@ -2,22 +2,27 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Пинк-Фото</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="page-header">
-          <div class="page-header__logo">
-              <img src="" alt="Pink logo">
-          </div>
+     <header class="page-header container">
           <nav class="main-nav  main-nav--closed  main-nav--nojs">
-              <button class="main-nav__toggle" type="button">Open menu</button>
+              <div class="main-nav__panel clearfix">
+              <div class="main-nav__logo">
+                  <a href="index.html">
+                      <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
+                  </a>
+              </div>
+              <button class="main-nav__toggle" type="button"></button>
+              </div>
               <div class="main-nav__wrapper">
                   <ul class="main-nav__items">
-                      <li class="main-nav__item">Главная</li>
-                      <li class="main-nav__item">Фотографии</li>
-                      <li class="main-nav__item">Конкурс</li>
-                      <li class="main-nav__item">HTML Academy</li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="index.html">Главная</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
                   </ul>
               </div>
           </nav>

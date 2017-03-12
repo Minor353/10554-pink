@@ -2,28 +2,33 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Пинк-форма</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="page-header">
-          <div class="page-header__logo">
-              <img src="" alt="Pink logo">
-          </div>
+     <header class="page-header container">
           <nav class="main-nav  main-nav--closed  main-nav--nojs">
-              <button class="main-nav__toggle" type="button">Open menu</button>
+              <div class="main-nav__panel clearfix">
+              <div class="main-nav__logo">
+                  <a href="index.html">
+                      <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
+                  </a>
+              </div>
+              <button class="main-nav__toggle" type="button"></button>
+              </div>
               <div class="main-nav__wrapper">
                   <ul class="main-nav__items">
-                      <li class="main-nav__item">Главная</li>
-                      <li class="main-nav__item">Фотографии</li>
-                      <li class="main-nav__item">Конкурс</li>
-                      <li class="main-nav__item">HTML Academy</li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="index.html">Главная</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
                   </ul>
               </div>
           </nav>
       </header>
       
-      <section class="contest">
+      <section class="contest  container">
           <div class="contest__title">
               Конкурс на самое безбашенное путешествие с Пинк
           </div>
@@ -34,7 +39,7 @@
           <form class="contest__form" action="https://echo.htmlacademy.ru/" method="post">
             
              <fieldset class="contest__user-date">
-                  <label class="contest__form-label">Фамилия
+                  <label class="contest__form-label">Фамилия:
                       <input class="contest__input" type="text" name="second-name" placeholder="Укажите фамилию*" id="second-name" required>
                   </label>
               
@@ -47,8 +52,8 @@
                   </label>
               </fieldset>
                 
-              <fieldset class="contest__user-date">
-                    <p class="contest__form-legend">Ваши безбашенные достижения в путешествии</p>
+              <fieldset class="contest__user-date  contest__user-achieve">
+                    <p class="contest__form-legend">Ваши безбашенные<br> достижения в путешествии</p>
                   <label class="contest__label-chekbox">
                       <input class="contest__chekbox" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" checked>
                       <span class="contest__chekbox-indicator"></span>
@@ -96,8 +101,8 @@
                   </label>
               </fieldset>
               
-              <fieldset class="contest__user-date">
-                  <p class="contest__form-legend">С каким приложением путешествовали?</p>
+              <fieldset class="contest__user-date contest__user-soft">
+                  <p class="contest__form-legend">С каким приложением<br> путешествовали?</p>
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="IOS">
                       <span class="contest__radio-indicator"></span>
@@ -119,18 +124,18 @@
               
               <fieldset class="contest__user-date">
                   <p class="contest__form-legend">Опишите свои эмоции</p>
-                  <textarea class="contest__input" name="recall" id="recall" cols="30" rows="10" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                  <textarea class="contest__input" name="recall" id="recall" cols="10" rows="6" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
               </fieldset>
               
               <button class="contest__btn" type="submit">Отправить форму</button>
           </form>
-          <p class="contest__reminder">-Обязательные поля</p>
+          <p class="contest__reminder">* -Обязательные поля</p>
       </section>
       
-      <footer class="page-footer">
+      <footer class="page-footer  container">
           <div class="page-footer__wrapper">
               <div class="page-footer__link-logo">
-                  <a href="index.html"><img class="page-footer__logo" src="#" alt="Pink logo"></a>
+                  <a href="index.html"><img class="page-footer__logo" src="img/Pink-footer.png" alt="Pink logo"></a>
               </div>
               
               <div class="socials">
