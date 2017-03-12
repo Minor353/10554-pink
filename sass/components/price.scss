@@ -1,0 +1,129 @@
+/**************Mobile ver.*******************/
+
+/*Слайдер цен*/
+.price__input {
+    display: none;
+}
+
+.slider__toggle {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 0px #bec2c7;
+    background: #bec2c7;
+    margin: 0 3px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#price-input-1:checked ~ .slider__toggles .slider__toggle[for="price-input-1"],
+#price-input-2:checked ~ .slider__toggles .slider__toggle[for="price-input-2"],
+#price-input-3:checked ~ .slider__toggles .slider__toggle[for="price-input-3"] {
+    background: white;
+    border: 3px solid black;
+}
+
+#price-input-1:checked ~ .price__items .price__item {
+    transform: translate(20px);
+}
+
+#price-input-2:checked ~ .price__items .price__item {
+    transform: translate(-253px);
+}
+
+#price-input-3:checked ~ .price__items .price__item {
+    transform: translate(-530px);
+}
+
+.price__toggles {
+    text-align: center;
+    margin-top: 35px;
+}
+/***********************************/
+
+.price {
+    position: relative;
+    background: #f2f2f2;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+.price__decoration {
+    position: absolute;
+    right: 0px;
+    top: -25px;
+    width:0;
+    height:0;
+    border:25px solid transparent;
+    border-bottom:0;
+    border-right: 320px solid #f2f2f2;
+}
+
+.price__items {
+    width: 825px;
+    padding: 0;
+    margin: 0;
+}
+
+.price__item {
+    list-style: none;
+    width: 275px;
+    float: left;
+}
+
+.price__title {
+    background: #283645;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.price__title--hit {
+    position: relative;
+}
+
+.price__item-title {
+    font-family: OpenSansBold;
+    line-height: 1.6em;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.price__value {
+    font-family: OpenSansLight;
+    line-height: 1.2em;
+    font-size: 24px;
+}
+
+.price__hit{
+    background: url("../../img/price-hit.png") no-repeat;
+    position: absolute;
+    height: 73px;
+    width: 73px;
+    left: -2px;
+    top: 0;
+}
+
+.price__access {
+    background: white;
+    color: #283645;
+    font-family: OpenSans;
+    line-height: 2.1em;
+    font-size: 14px;
+    padding: 15px 20px;
+    border-left: 1px solid #e5e5e5; 
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.price__access--yes {
+    background: url("../../img/table-yes.png") no-repeat center;
+}
+
+.price__access--no {
+    background: url("../../img/table-no.png") no-repeat center;
+}
+/********************************************/
