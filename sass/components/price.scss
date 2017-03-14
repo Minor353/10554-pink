@@ -47,6 +47,10 @@
     background: #f2f2f2;
     padding-top: 60px;
     padding-bottom: 45px;
+    /*overflow: hidden;*/
+}
+
+.price__wrapper {
     overflow: hidden;
 }
 
@@ -56,8 +60,8 @@
     top: -25px;
     width:0;
     height:0;
-    border:25px solid transparent;
-    border-bottom:0;
+    border: 25px solid transparent;
+    border-bottom: 0;
     border-right: 320px solid #f2f2f2;
 }
 
