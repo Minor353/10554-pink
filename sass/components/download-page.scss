@@ -20,12 +20,12 @@
 
 .download-page__link--btn {
     display: block;
-    font-family: OpenSansBold;
+    font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 1em;
     font-size: 18px;
     color: #ffffff;
     text-align: center;
-    border: 3px solid white;
+    border: 3px solid #ffffff;
     border-radius: 25px;
     width: 275px;
     padding: 15px 0;
@@ -65,7 +65,7 @@
 }
 
 .download-page__description {
-    font-family: OpenSansLight;
+    font-family: OpenSansLight, Verdana, sans-serif;
     line-height: 1.7em;
     font-size: 14px;
     font-weight: lighter;

@@ -1,14 +1,20 @@
 /****************Mibile ver.***********************/
-/*.photo-editor {
+.photo-editor {
     background: #f2f2f2; 
-    padding-top: 20px;
-    padding-left: 20px;
-    /*padding-right: 20px;
     margin-bottom: 40px;
-}*/
+}
 
-.photo-editor__items{
+.photo-editor__picture {
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+.photo-editor__wrapper{
     border-bottom: 1px solid #dddfe0;
+}
+
+.photo-editor__items {
+    padding: 0 50px;
 }
 
 .photo-editor__item {
@@ -20,7 +26,6 @@
     height: 50px;
     background: url("../../img/icon-editor-crop.svg") no-repeat center;
     margin: 35px 0;
-    margin-left: 30px;
 }
 
 .photo-editor__item--fill {
@@ -47,13 +52,14 @@
 .photo-editor__button {
     display: block;
     width: 275px;
-    font-family: OpenSansBold;
+    font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 1em;
     font-size: 18px;
     color: #d22856;
     padding: 16px 20px;
     border: 3px solid #d22856;
     border-radius: 25px;
+    margin: 0 auto;
 }
 
 .photo-editor__button-confirm{

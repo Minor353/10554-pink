@@ -20,8 +20,8 @@
 #price-input-1:checked ~ .slider__toggles .slider__toggle[for="price-input-1"],
 #price-input-2:checked ~ .slider__toggles .slider__toggle[for="price-input-2"],
 #price-input-3:checked ~ .slider__toggles .slider__toggle[for="price-input-3"] {
-    background: white;
-    border: 3px solid black;
+    background: #ffffff;
+    border: 3px solid #000000;
 }
 
 #price-input-1:checked ~ .price__items .price__item {
@@ -79,11 +79,11 @@
 
 .price__title {
     background: #283645;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 15px 0;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
 }
 
 .price__title--hit {
@@ -91,14 +91,14 @@
 }
 
 .price__item-title {
-    font-family: OpenSansBold;
+    font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 1.6em;
     font-size: 18px;
     margin-bottom: 7px;
 }
 
 .price__value {
-    font-family: OpenSansLight;
+    font-family: OpenSansLight, Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 24px;
 }
@@ -113,9 +113,9 @@
 }
 
 .price__access {
-    background: white;
+    background: #ffffff;
     color: #283645;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px;
     padding: 15px 20px;

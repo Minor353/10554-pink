@@ -31,13 +31,18 @@
     position: relative;
 }
 
-
+/**************Стили на время, потом удалю****************************/
+.user-gallery__user-foto--top {
+    width: 280px;
+    height: 180px;
+}
+/******************************************/
 .user-gallery__user-top {
     font-family: OpenSansBold;
     line-height: 2em;
     font-size: 12px;
     text-transform: uppercase;
-    color: white;
+    color: #ffffff;
     background: #d22856;
     padding: 5px 18px;
     position: absolute;
@@ -61,11 +66,11 @@
 }
 
 .user-gallery__user-name {
-    font-family: OpenSansBold;
+    font-family: OpenSansBold, Verdana, sans-serif;
 }
 
 .user-gallery__time-writing {
-    font-family: OpenSansLight;
+    font-family: OpenSansLight, Verdana, sans-serif;
     line-height: 2em;
     font-size: 12px;
 }
@@ -81,7 +86,7 @@
 }
 
 .user-gallery__likes-timer {
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.7em;
     font-size: 12px;
     color: #db5e80;
@@ -89,7 +94,7 @@
 
 .user-gallery__text-end {
     text-align: center;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px;
     padding-top: 20px;

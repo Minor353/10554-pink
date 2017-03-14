@@ -6,7 +6,7 @@
 .contest__title {
     text-align: center;
     color: #c6cace;
-    font-family: OpenSansLight;
+    font-family: OpenSansLight, Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 24px;
     background: url(../../img/bg-back-mobile@1x.jpg) no-repeat;
@@ -20,7 +20,7 @@
 .contest__description{
     text-align: center;
     color: #535e6a;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px; 
     padding-top: 42px;
@@ -38,7 +38,7 @@
 
 .contest__form-label {
     color: #d22856;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px; 
     
@@ -48,7 +48,7 @@
     display: block;
     width: 255px;
     text-align: left;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.6em;
     font-size: 18px;
     border: 2px solid #e5e5e5;
@@ -67,7 +67,7 @@
 .contest__form-legend {
     text-align: center;
     color: #d22856;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 14px; 
     margin-bottom: 30px;
@@ -75,7 +75,7 @@
 
 .contest__label-chekbox {
     display: block;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.6em;
     font-size: 18px;
     margin-bottom: 40px;
@@ -87,14 +87,14 @@
 
 .contest__label-radio {
     display: block;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.6em;
     font-size: 18px;
     margin-bottom: 40px;
 }
 
 .contest__btn {
-    font-family: OpenSansBold;
+    font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 1.6em;
     font-size: 18px;
     text-transform: uppercase;
@@ -108,7 +108,7 @@
 
 .contest__reminder {
     text-align: center;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px;
 }
