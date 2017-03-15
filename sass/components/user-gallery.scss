@@ -1,0 +1,106 @@
+/****************************Mobile ver.*********************************/
+
+.user-gallery__title {
+    text-align: center;
+    color: #c6cace;
+    font-family: OpenSansLight;
+    line-height: 1.2em;
+    font-size: 24px;
+    background: url(../../img/bg-back-mobile@1x.jpg) no-repeat;
+    background-position: -195px -75px; 
+    padding-top: 25px;
+    padding-bottom: 75px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+.user-gallery__text-preview {
+    text-align: center;
+    color: #535e6a;
+    font-family: OpenSans;
+    line-height: 2.1em;
+    font-size: 14px; 
+    padding-top: 42px;
+    padding-bottom: 45px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.user-gallery__user-post--position{
+    position: relative;
+}
+
+/**************Стили на время, потом удалю****************************/
+.user-gallery__user-foto--top {
+    width: 280px;
+    height: 180px;
+}
+/******************************************/
+.user-gallery__user-top {
+    font-family: OpenSansBold;
+    line-height: 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #d22856;
+    padding: 5px 18px;
+    position: absolute;
+    right: 20px;
+}
+
+.user-gallery__wrapper {
+    padding: 0 20px;
+    font-family: OpenSans;
+    line-height: 1.7em;
+    font-size: 14px;
+}
+
+.user-gallery__user-post {
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+.user-gallery__items--inine {
+    display: inline-block;
+}
+
+.user-gallery__user-name {
+    font-family: OpenSansBold, Verdana, sans-serif;
+}
+
+.user-gallery__time-writing {
+    font-family: OpenSansLight, Verdana, sans-serif;
+    line-height: 2em;
+    font-size: 12px;
+}
+
+.user-gallery__items {
+    padding-left: 17px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+
+.user-gallery__likes {
+     margin-top: 20px;
+}
+
+.user-gallery__likes-timer {
+    font-family: OpenSans, Verdana, sans-serif;
+    line-height: 1.7em;
+    font-size: 12px;
+    color: #db5e80;
+}
+
+.user-gallery__text-end {
+    text-align: center;
+    font-family: OpenSans, Verdana, sans-serif;
+    line-height: 2.1em;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+
+/************************************************************************/

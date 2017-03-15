@@ -1,0 +1,47 @@
+/**************Mobile ver.*******************/
+
+.contacts__wraper {
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.contacts__title {
+    font-family: OpenSansLight;
+    line-height: 1.2em;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.contacts__item-title {
+    font-family: OpenSansBold;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.contacts__item {
+    margin-bottom: 15px;
+}
+
+.contacts__item--style {
+    text-decoration: none;
+    font-family: OpenSansLight;
+    line-height: 1.2em;
+    font-size: 24px;
+    color: #de6183;
+}
+
+.contacts__decoration {
+    position: absolute;
+    right: 0px;
+    bottom: -32px;
+    width:0;
+    height:0;
+    border: 160px solid transparent;
+    border-top: 32px solid white;
+    border-bottom: 0;
+}
+/********************************************/

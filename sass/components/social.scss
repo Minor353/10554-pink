@@ -1,0 +1,25 @@
+.socials {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.socials__link {
+    display: inline-block;
+    font-size: 0;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #e9ebec;
+    border-radius: 50%;
+}
+
+.socials__link--tw {
+    background: url("../../img/icon-twitter.svg") no-repeat center;
+}
+
+.socials__link--fb {
+    background: url("../../img/icon-facebook.svg") no-repeat center;
+}
+
+.socials__link--yt {
+    background: url("../../img/icon-youtube.svg") no-repeat center;
+}

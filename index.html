@@ -2,51 +2,58 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Пинк</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <header class="page-header">
-          <div class="page-header__logo">
-              <img src="" alt="Pink logo">
-          </div>
+      <header class="page-header container">
           <nav class="main-nav  main-nav--closed  main-nav--nojs">
-              <button class="main-nav__toggle" type="button">Open menu</button>
+              <div class="main-nav__panel clearfix">
+              <div class="main-nav__logo">
+                  <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
+              </div>
+              <button class="main-nav__toggle" type="button"></button>
+              </div>
               <div class="main-nav__wrapper">
                   <ul class="main-nav__items">
-                      <li class="main-nav__item">Главная</li>
-                      <li class="main-nav__item">Фотографии</li>
-                      <li class="main-nav__item">Конкурс</li>
-                      <li class="main-nav__item">HTML Academy</li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="">Главная</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
                   </ul>
               </div>
           </nav>
       </header>
       
-      <section class="download-page">
-          <div class="download-page__image">
-              <img src="http://placehold.it/150x100" alt="Pink image">
+      <section class="download-page container">
+          <div class="download-page__background-image">
+              <img class="download-page__image" src="img/iphone-hand-mobile@1x.png" alt="Pink image">
           </div>
-          <a href="#" class="download-page__link">Скачать приложение</a>
-          <a href="#" class="download-page__link">Apple</a>
-          <a href="#" class="download-page__link">Android</a>
-          <a href="#" class="download-page__link">Win</a>
-          <p class="download-page__description">
+          <a href="#" class="download-page__link  download-page__link--btn">Скачать приложение</a>
+          <div class="download-page__link-holder">
+          <a href="#" class="download-page__link  download-page__link--apple">Apple</a>
+          <a href="#" class="download-page__link  download-page__link--android">Android</a>
+          <a href="#" class="download-page__link download-page__link--win">Win</a>
+          </div>
+          <div class="download-page__description">
               Дотупно для iPhone, iPad, Android,
               Windows Phone, OS X, Windows 8
-          </p>
+          </div>
       </section>
       
-      <section class="features">
+      <section class="features container">
           <div class="features__titles">
-              <p class="features__title">
+              <div class="features__title">
                   Устали от серости мегаполиса?
-              </p>
-              <p class="features__title">
+              </div>
+              <div class="features__title features__title--bottom">
                   Нам есть, что вам предложить!
-              </p>
+              </div>
           </div>
           
+          <div class="features__items">
+          <div class="features__decoration"></div>
           <div class="features__item">
               <b class="features__item-caption">Поднимает настроение</b>
               <p class="features__item-description">
@@ -72,16 +79,17 @@
               </p>
           </div>
           <div class="features__image">
-              <img src="http://placehold.it/150x100" alt="Pink image">
+              <img src="img/pink-index-mobile_03.png" alt="Pink image">
+          </div>
           </div>
       </section>
       
-      <section class="reviews">
+      <section class="reviews container">
           <div class="reviews__wrapper  slider">
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-1" checked>
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-2">
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-3">
-              <ul class="reviews__items">
+              <ul class="reviews__items    clearfix">
                   <li class="reviews__item  slider__item">
                       <b class="reviews__item-title">
                           Николай Петров
@@ -90,61 +98,116 @@
                           «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
                       </p>
                   </li>
+                   <li class="reviews__item  slider__item">
+                      <b class="reviews__item-title">
+                        Юрий Шатунов
+                      </b>
+                      <p class="reviews__item-description">
+                          «Я думал, круче чем я, ничего нет! Увидев это приложение, я понял, что ошибался! Ставлю 5+ Буду советовать всем своим друзьям.»
+                      </p>
+                  </li>
+                   <li class="reviews__item  slider__item">
+                      <b class="reviews__item-title">
+                          Юрий Петров
+                      </b>
+                      <p class="reviews__item-description">
+                          «Это приложение  позволило по-новому взглянуть на привычные серые вещи! Pink, это то, в чем нуждался мир! Это лучше чем зефир!»
+                      </p>
+                  </li>
               </ul>
               <div class="reviews__toggles  slider__toggles">
-                  <label class="slider__toggle" for="reviews-input-1">1</label>
-                  <label class="slider__toggle" for="reviews-input-2">2</label>
-                  <label class="slider__toggle" for="reviews-input-3">3</label>
+                  <label class="slider__toggle" for="reviews-input-1"></label>
+                  <label class="slider__toggle" for="reviews-input-2"></label>
+                  <label class="slider__toggle" for="reviews-input-3"></label>
               </div>
           </div>
       </section>
       
-      <section class="price">
+      <section class="price container">
+          <div class="price__decoration"></div>
           <div class="price__wrapper  slider">
               <input class="price__input" type="radio"  name="price" id="price-input-1">
               <input class="price__input" type="radio"  name="price" id="price-input-2" checked>
               <input class="price__input" type="radio"  name="price" id="price-input-3">
-              <ul class="price__item">
-                  <li class="price__title">
-                      <div class="price__item-title">Стандарт</div>
-                      <div class="price__value">3.99 USD</div>
+              <ul class="price__items clearfix">
+                  <li class="price__item">
+                    <div class="price__title">
+                        <div class="price__item-title">База</div>
+                        <div class="price__value">1,99 USD</div>
+                    </div>
+                    <div class="price__access  price__access--yes">
+                          Розовый фильтр
+                    </div>
+                    <div class="price__access  price__access--no">
+                          Самйлики
+                    </div>
+                    <div class="price__access  price__access--no">
+                          Комментарии
+                    </div>
                   </li>
-                  <li class="price__access">
-                        Розовый фильтр
+                  
+                  <li class="price__item">
+                    <div class="price__title  price__title--hit">
+                        <div class="price__hit"></div>
+                        <div class="price__item-title">Стандарт</div>
+                        <div class="price__value">3,99 USD</div>
+                    </div>
+                    <div class="price__access  price__access--yes">
+                          Розовый фильтр
+                    </div>
+                    <div class="price__access  price__access--yes">
+                          Самйлики
+                    </div>
+                    <div class="price__access  price__access--no">
+                          Комментарии
+                    </div>
                   </li>
-                  <li class="price__access">
-                        Самйлики
-                  </li>
-                  <li class="price__access">
-                        Комментарии
+                  
+                  <li class="price__item">
+                    <div class="price__title">
+                        <div class="price__item-title">Анлим</div>
+                        <div class="price__value">9,99 USD</div>
+                    </div>
+                    <div class="price__access  price__access--yes">
+                          Розовый фильтр
+                    </div>
+                    <div class="price__access  price__access--yes">
+                          Самйлики
+                    </div>
+                    <div class="price__access  price__access--yes">
+                          Комментарии
+                    </div>
                   </li>
               </ul>
-              <div class="advantages__toggles  slider__toggles">
-                  <label class="slider__toggle" for="price-input-1">1</label>
-                  <label class="slider__toggle" for="price-input-2">2</label>
-                  <label class="slider__toggle" for="price-input-3">3</label>
+              <div class="price__toggles  slider__toggles">
+                  <label class="slider__toggle" for="price-input-1"></label>
+                  <label class="slider__toggle" for="price-input-2"></label>
+                  <label class="slider__toggle" for="price-input-3"></label>
               </div>
           </div>
      </section>
      
-     <section class="contacts">
-         <b class="contacts__title">
-             Остались вопросы? Свяжитесь с нами!
-         </b>
-         <div class="contacts__item">
-             <b class="contacts__item-title">Звоните:</b>
-             <a class="contacts__item-tel" href="tel:+78125556666">+7(812)555-66-66</a>
-         </div>
-         <div class="contacts__item">
-             <b class="contacts__item-title">Пишите:</b>
-             <a class="contacts__item-email" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-         </div>
-         <div class="contacts__item">
-             <b class="contacts__item-title">Приезжайте в гости:</b>
-             <a class="contacts__item-address" href="#">ул.Большая Конюшенна, 19/8</a>
-         </div>
+     <section class="contacts container">
+        <div class="contacts__wraper">
+            <div class="contacts__decoration"></div>
+            <div class="contacts__title">
+                Остались вопросы? Свяжитесь с нами!
+            </div>
+            <div class="contacts__item">
+                <b class="contacts__item-title">Звоните:</b><br>
+                <a class="contacts__item-tel  contacts__item--style" href="tel:+78125556666">+7(812)555-66-66</a>
+            </div>
+            <div class="contacts__item">
+                <b class="contacts__item-title">Пишите:</b><br>
+                <a class="contacts__item-email  contacts__item--style" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+            </div>
+            <div class="contacts__item">
+                <b class="contacts__item-title">Приезжайте в гости:</b>
+                <a class="contacts__item-address  contacts__item--style" href="#">ул.Большая Конюшенна, 19/8</a>
+            </div>
+         </div> 
          <div class="contacts__map">
-             <img src="http://placehold.it/150x100" alt="Карта проезда">
+             <img src="img/mobile-map.png" alt="Карта проезда">
          </div>
      </section>
   </body>

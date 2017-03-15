@@ -2,38 +2,45 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Пинк-Фото</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="page-header">
-          <div class="page-header__logo">
-              <img src="" alt="Pink logo">
-          </div>
+     <header class="page-header container">
           <nav class="main-nav  main-nav--closed  main-nav--nojs">
-              <button class="main-nav__toggle" type="button">Open menu</button>
+              <div class="main-nav__panel clearfix">
+                  <div class="main-nav__logo">
+                      <a href="index.html">
+                          <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
+                      </a>
+                  </div>
+                  <button class="main-nav__toggle" type="button"></button>
+              </div>
               <div class="main-nav__wrapper">
                   <ul class="main-nav__items">
-                      <li class="main-nav__item">Главная</li>
-                      <li class="main-nav__item">Фотографии</li>
-                      <li class="main-nav__item">Конкурс</li>
-                      <li class="main-nav__item">HTML Academy</li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="index.html">Главная</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
                   </ul>
               </div>
           </nav>
       </header>
       
-      <section class="user-gallery">
+      <section class="user-gallery container">
           <div class="user-gallery__title">
                   Фотографии пользователей
           </div>
           <div class="user-gallery__text-preview">
                   Взгдяните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
           </div>
-          
-          <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto user-gallery__user-foto--top" src="http://placehold.it/150x100" alt="user-foto">
-                  <div class="user-gallery__user-name">Анна</div> <div class="user-gallery__time-writing">(5 минут назад)</div>
+          <div class="user-gallery__wrapper">
+          <div class="user-gallery__user-post  user-gallery__user-post--position">
+              <div class="user-gallery__user-top">Панорама дня</div>
+              <img class="user-gallery__user-foto  user-gallery__user-foto--top" src="img/panorama-mobile@1x.jpg" alt="user-foto">
+                 <div class="user-gallery__items">
+                  <div class="user-gallery__user-name user-gallery__items--inine">Анна</div> <div class="user-gallery__time-writing user-gallery__items--inine">(5 минут назад)</div>
                   <div class="user-gallery__user-text">
                         Прыгать или нет? Напишите в 
                         коментарии свой совет и смотрите 
@@ -41,74 +48,87 @@
                         задавайте свои вопросы!
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится:215</span>
+                   <div class="user-gallery__like"></div><span class="user-gallery__likes-timer">Нравится: 215</span>
+              </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="http://placehold.it/150x100" alt="user-foto">
-                  <div class="user-gallery__user-name">Левон</div> <div class="user-gallery__time-writing">(5 часов назад)</div>
+              <img class="user-gallery__user-foto" src="img/photo-1-mobile@1x.jpg" alt="user-foto">
+                 <div class="user-gallery__items">
+                  <div class="user-gallery__user-name  user-gallery__items--inine">Левон</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(5 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Вчера он на луну летал, сегодня в
                         руки к нам попал.
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится:356</span>
+                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 356</span>
               </div>
+              </div> 
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="http://placehold.it/150x100" alt="user-foto">
-                  <div class="user-gallery__user-name">Антон</div> <div class="user-gallery__time-writing">(12 часов назад)</div>
+              <img class="user-gallery__user-foto" src="img/photo-2-mobile@1x.jpg" alt="user-foto">
+                 <div class="user-gallery__items">
+                  <div class="user-gallery__user-name  user-gallery__items--inine">Антон</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(12 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Соседи будут рады!
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится:666</span>
+                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 666</span>
+              </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="http://placehold.it/150x100" alt="user-foto">
-                  <div class="user-gallery__user-name">Борис</div> <div class="user-gallery__time-writing">(20 часов назад)</div>
+              <img class="user-gallery__user-foto" src="img/photo-3-mobile@1x.jpg" alt="user-foto">
+                 <div class="user-gallery__items">
+                  <div class="user-gallery__user-name  user-gallery__items--inine">Борис</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(20 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Здесь могла быть ваша цитата о высоком и вечном.
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится:215</span>
+                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 215</span>
+              </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="http://placehold.it/150x100" alt="user-foto">
-                  <div class="user-gallery__user-name">Сергей</div> <div class="user-gallery__time-writing">(25 часов назад)</div>
+              <img class="user-gallery__user-foto" src="img/photo-4-mobile@1x.jpg" alt="user-foto">
+                 <div class="user-gallery__items">
+                  <div class="user-gallery__user-name  user-gallery__items--inine">Сергей</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(25 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Самая кубанская в мире!
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится:4</span>
+                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 4</span>
+              </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="http://placehold.it/150x100" alt="user-foto">
-                  <div class="user-gallery__user-name">Максим</div> <div class="user-gallery__time-writing">(40 часов назад)</div>
+              <img class="user-gallery__user-foto" src="img/photo-5-mobile@1x.jpg" alt="user-foto">
+                 <div class="user-gallery__items">
+                  <div class="user-gallery__user-name  user-gallery__items--inine">Максим</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(40 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Где снег-то?
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится:150</span>
+                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 150</span>
+              </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="http://placehold.it/150x100" alt="user-foto">
-                  <div class="user-gallery__user-name">Надежда</div> <div class="user-gallery__time-writing">(45 часов назад)</div>
+              <img class="user-gallery__user-foto" src="img/photo-6-mobile@1x.jpg" alt="user-foto">
+                 <div class="user-gallery__items">
+                  <div class="user-gallery__user-name  user-gallery__items--inine">Надежда</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(45 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Всем GM и взаимные лайки!
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится:2560</span>
+                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 2560</span>
+              </div>
               </div>
           </div>
           
@@ -116,28 +136,30 @@
                   Затмите их всех!<br>
                   Выкладывайте все, что накопилось в телефоне!
           </div>
+          </div>
       </section>
       
-      <section class="photo-editor">
+      <section class="photo-editor  container">
           <div class="photo-editor__picture">
-              <img src="http://placehold.it/150x100" alt="Foto">
+              <img src="img/photo-7-mobile@1x.jpg" alt="Foto">
           </div>
-          <div class="photo-editor__items">
-              <div class="photo-editor__item photo-editor__item--cut">Кадрировать</div>
-              <div class="photo-editor__item photo-editor__item--color">Цвет</div>
-              <div class="photo-editor__item photo-editor__item--bright">Яркость</div>
-              <input class="photo-editor__range" type="range">
+          <div class="photo-editor__wrapper">
+             <div class="photo-editor__items">
+                <div class="photo-editor__item photo-editor__item--crop"></div>
+                <div class="photo-editor__item photo-editor__item--fill"></div>
+                <div class="photo-editor__item photo-editor__item--contrast"></div>
+              </div>
           </div>
           <div class="photo-editor__buttons">
-              <button class="photo-editor__button-confirm" type="button">Запостить</button>
-              <button class="photo-editor__button-cancel" type="button">Отмена</button>
+              <button class="photo-editor__button  photo-editor__button-confirm" type="button">Запостить</button>
+              <button class="photo-editor__button  photo-editor__button-cancel" type="button">Отмена</button>
           </div>
       </section>
       
-      <footer class="page-footer">
+      <footer class="page-footer  container">
           <div class="page-footer__wrapper">
               <div class="page-footer__link-logo">
-                  <a href="index.html"><img class="page-footer__logo" src="#" alt="Pink logo"></a>
+                  <a href="index.html"><img class="page-footer__logo" src="img/Pink-footer.png" alt="Pink logo"></a>
               </div>
               
               <div class="socials">
@@ -147,9 +169,9 @@
               </div>
               
               <div class="page-footer__copyright">
-                  Разработано: <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+                  Разработано <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
               </div>
           </div>
-      </footer>
+    </footer>
 </body>
 </html>
