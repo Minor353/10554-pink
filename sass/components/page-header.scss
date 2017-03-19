@@ -63,13 +63,50 @@
     .container {   
     width: 700px;
     margin: 0 auto;
-}
+    }
     
     .main-nav__panel {
-        padding: 40px;
-        /*padding-top: 25px;*/
-        
+        padding: 40px;  
     }    
+}
+
+/*************************************************************/
+
+/*******************Desktop ver.******************************/
+
+@media (min-width: 1200px) {
+    .container {   
+    width: 1200px;
+    margin: 0 auto;
+    }
+    
+    .main-nav__toggle {
+        display: none;
+    }
+    
+    .main-nav__panel {
+        display: inline-block;
+    }
+    
+    .main-nav__logo {
+        float: none;
+    }
+    
+    .main-nav__wrapper {
+        display: inline-block;
+    }
+    
+    .main-nav__item {
+      display: inline-block;
+    }
+    
+    .main-nav__link {
+        font-family: OpenSans, Verdana, sans-serif;
+        line-height: 1em;
+        border-bottom: 0px solid;
+        text-transform: none;
+        margin-left: 75px;
+    }
 }
 
 /*************************************************************/

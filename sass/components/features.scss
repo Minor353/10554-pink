@@ -54,6 +54,10 @@
     width: 160px;
     margin: 0 auto;
 }
+
+.features__image-desktop {
+    display: none;
+}
 /********************************************/
 
 /********************Tablet ver.*********************/
@@ -88,6 +92,10 @@
         background-size: cover; 
     }
     
+    .features__image-desktop {
+    display: none;
+    }
+    
     .features__item {
         text-align: left;
     }
@@ -98,3 +106,58 @@
 }
 
 /*****************************************************/
+
+/*******************Desktop ver.******************************/
+
+@media (min-width: 1200px) {
+    .features__titles {
+        font-size: 50px;
+        padding-top: 70px;
+        padding-right: 225px;
+        padding-left: 225px;
+    }
+    
+    .features__title--bottom {
+        width: 440px;
+        margin-bottom: 160px;
+    }
+    
+    .features__item {
+        text-align: center;
+        width: 235px;
+    }
+    
+    .features__item-caption {
+        line-height: 1em;
+        font-size: 30px;
+    }
+    
+    .features__item-description {
+        line-height: 1.6em;
+        font-size: 18px;
+    }
+    
+    .features__items {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .features__item-holder {
+        float: none;
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .features__image-desktop {
+        display: block;
+    }
+    
+    .features__image-holder {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+
+/************************************************************/
