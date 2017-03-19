@@ -1,0 +1,48 @@
+/*******************Mobile ver.*******************************/
+
+.research {
+    display: none;
+}
+
+/*************************************************************/
+
+/**********************Tablet ver.****************************/
+
+@media (min-width: 700px) {
+    .research {
+        display: block;
+    }
+    
+    .research__timer {
+        display: inline-block;
+        width: 238px;
+        height: 276px;
+        background: url("../../img/24.png") no-repeat center;
+    }
+    
+    .research__content {
+        display: inline-block;
+        width: 300px;
+    }
+    
+    .research__title {
+        font-family: OpenSansBold, Verdana, sans-serif;
+        line-height: 1.2em;
+        font-size: 30px;
+    }
+    
+    .research__content-text {
+        font-family: OpenSans, Verdana, sans-serif;
+        line-height: 1.7em;
+        font-size: 14px;
+    }
+    
+    .research__link {
+        font-family: OpenSans, Verdana, sans-serif;
+        line-height: 1.7em;
+        font-size: 14px;
+        color: #d22856;
+    }
+}
+
+/*************************************************************/

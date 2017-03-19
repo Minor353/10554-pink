@@ -2,6 +2,7 @@
 
 .download-page {
     background: #1d2631;
+    position: relative;
 }
 
 .download-page__background-image {
@@ -16,6 +17,10 @@
 }
 .download-page__link{
     text-decoration: none;
+}
+
+.download-page__title {
+    display: none;
 }
 
 .download-page__link--btn {
@@ -35,7 +40,8 @@
 }
 
 .download-page__link-holder {
-    padding: 0 50px;
+    width: 220px;
+    margin: 0 auto;
 }
 
 .download-page__link--apple {
@@ -74,3 +80,41 @@
     text-align: center;
 }
 /********************************************/
+
+/*******************tablet ver.**************************/
+
+@media (min-width: 700px) {
+    .download-page__background-image {
+        height: 620px;
+        background-size: cover;
+    }
+    
+    .download-page__image {
+        height: 545px;
+        left: 185px;
+    }
+    
+    .download-page__title {
+        display: block;
+        width: 195px;
+        margin: 0 auto;
+        font-family: OpenSansLight, Verdana, sans-serif;
+        line-height: 1.2em;
+        font-size: 40px;
+        color: #c3c5c8;
+        text-align: center;
+    }
+    
+    .download-page__holder {
+        width: 280px;
+        position: absolute;
+        top: 90px;
+        left: 40px;
+    }
+    
+    .download-page__description {
+        padding: 35px 0;
+    }
+}
+
+/********************************************************/

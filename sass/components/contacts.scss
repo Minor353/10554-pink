@@ -45,3 +45,19 @@
     border-bottom: 0;
 }
 /********************************************/
+
+/***************Tablet ver.******************/
+
+@media (min-width: 700px) {
+    .contacts__title {
+        width: 370px;
+        margin: 0 auto;
+        font-size: 40px;
+    }
+    
+    .contacts__item {
+        display: inline-block;
+    }
+}
+
+/********************************************/

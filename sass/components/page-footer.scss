@@ -22,4 +22,26 @@
     height: 35px;
     background: url("../../img/htmlacademy.svg") no-repeat center;
 }
+
+.page-footer-index {
+    display: none;
+}
 /********************************************/
+
+/************Tablet ver.********************/
+
+@media (min-width: 700px) {
+    .page-footer-index {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .page-footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/*******************************************/

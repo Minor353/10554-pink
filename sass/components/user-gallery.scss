@@ -31,12 +31,7 @@
     position: relative;
 }
 
-/**************Стили на время, потом удалю****************************/
-.user-gallery__user-foto--top {
-    width: 280px;
-    height: 180px;
-}
-/******************************************/
+
 .user-gallery__user-top {
     font-family: OpenSansBold;
     line-height: 2em;
@@ -104,3 +99,57 @@
 
 
 /************************************************************************/
+
+/************************Tablet ver.******************************/
+
+@media (min-width: 700px) {
+    .user-gallery__title {
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 140px;
+    padding-left: 175px;
+    padding-right: 170px;  
+    background-position: center;    
+}
+    .user-gallery__text-preview {
+        line-height: 1.6em;
+        font-size: 18px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    
+    .user-gallery__wrapper {
+        padding: 0 40px;
+    }
+    .user-gallery__user-post {
+        width: 300px;
+    }
+    
+    .user-gallery__user-foto {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .user-gallery__user-post-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .user-gallery__user-post--position {
+        display: block;
+        width: 620px;
+    }
+    
+    .user-gallery__text-end {
+        line-height: 1.6em;
+        font-size: 18px;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+}
+
+/**************************************************************/

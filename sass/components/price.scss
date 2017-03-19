@@ -132,3 +132,21 @@
     background: url("../../img/table-no.png") no-repeat center;
 }
 /********************************************/
+
+/****************Tablet ver.*******************/
+
+@media (min-width: 700px) {
+    .price__item {
+        width: 155px;
+    }
+    
+    .price__access {
+        font-size: 0;
+    }
+    
+    .price__toggles {
+        /*display: none;*/
+    }
+}
+
+/**********************************************/

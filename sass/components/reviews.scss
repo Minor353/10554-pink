@@ -72,3 +72,48 @@
    padding-bottom: 65px;
 }
 /************************************************/
+
+/**************Tablet ver.**********************/
+
+@media (min-width: 700px) {
+    .reviews__item {
+        width: 620px;
+        padding: 0 40px;
+    }
+    
+    #reviews-input-1:checked ~ .reviews__items .slider__item {
+        transform: translate(0);
+    }
+
+    #reviews-input-2:checked ~ .reviews__items .slider__item {
+        transform: translate(-700px);
+    }
+
+    #reviews-input-3:checked ~ .reviews__items .slider__item {
+        transform: translate(-1400px);
+    }
+    
+    
+    .reviews__item-title {
+        font-size: 20px;
+        line-height: 1.5em;
+    }
+    
+    .reviews__item-relation {
+        font-family: OpenSansLight, Verdana, sans-serif;
+        line-height: 2.1em;
+        font-size: 14px;
+    }
+    
+    .reviews__item-description {
+        line-height: 1.6em;
+        font-size: 18px;
+    }
+    
+    .reviews__item {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/***********************************************/
