@@ -15,16 +15,16 @@
 }
 
 .main-nav__panel {
+    display: flex;
     padding: 20px; 
     border-bottom: 1px groove #000000;  
 }
 
 .main-nav__logo {
-    float: left;
+    margin-right: auto;
 }
 
 .main-nav__toggle {
-    float: right;
     background: url(../../img/icon-menu-cross.svg) no-repeat;
     width: 28px;
     height: 28px;
@@ -75,10 +75,6 @@
     
     .main-nav__panel {
         display: inline-block;
-    }
-    
-    .main-nav__logo {
-        float: none;
     }
     
     .main-nav__wrapper {

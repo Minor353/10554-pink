@@ -23,7 +23,7 @@
     background: url("../../img/htmlacademy.svg") no-repeat center;
 }
 
-.page-footer-index {
+.page-footer--index {
     display: none;
 }
 /********************************************/
@@ -31,7 +31,7 @@
 /************Tablet ver.********************/
 
 @media (min-width: 740px) {
-    .page-footer-index {
+    .page-footer--index {
         display: flex;
         justify-content: space-around;
         align-items: center;

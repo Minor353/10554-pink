@@ -8,16 +8,13 @@
 
 /**********************Tablet ver.****************************/
 
-@media (min-width: 700px) {
+@media (min-width: 740px) {
     .research {
         display: block;
     }
     
     .research__timer {
         display: inline-block;
-        width: 238px;
-        height: 276px;
-        background: url("../../img/24.png") no-repeat center;
     }
     
     .research__content {
