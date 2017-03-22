@@ -117,3 +117,26 @@
 }
 
 /***********************************************/
+
+/****************Desktop ver.***********************************/
+
+@media (min-width: 1210px) {
+    .reviews__item {
+        width: 780px;
+        padding: 0 85px;
+    }
+    
+    .reviews__item-title {
+        font-size: 24px;
+        line-height: 1.2em;
+    }
+    
+    #reviews-input-1:checked ~ .reviews__items .slider__item {
+        transform: translate(150px);
+    }
+    
+    .slider__toggles {
+        display: none;
+    }
+
+}

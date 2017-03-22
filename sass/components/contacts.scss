@@ -55,8 +55,18 @@
         font-size: 40px;
     }
     
+    .contacts__items-holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
     .contacts__item {
-        display: inline-block;
+        margin-top: 40px;
+    }
+    
+    .contacts__item--width {
+        width: 220px;
     }
 }
 

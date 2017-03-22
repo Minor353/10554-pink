@@ -10,15 +10,17 @@
 
 @media (min-width: 740px) {
     .research {
-        display: block;
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 40px;
     }
     
     .research__timer {
-        display: inline-block;
+        margin-left: 40px;
+        margin-right: 75px;
     }
     
     .research__content {
-        display: inline-block;
         width: 300px;
     }
     
@@ -43,3 +45,38 @@
 }
 
 /*************************************************************/
+
+/****************Desktop ver.***********************************/
+
+@media (min-width: 1210px) {
+    .research {
+        background: #f2f2f2;
+    }
+    
+    .research__timer {
+        margin-left: 100px;
+    }
+    
+    .research__content {
+        width: auto;
+        margin-top: 80px;
+    }
+    
+    .research__title {
+        line-height: 1em;
+        margin-bottom: 15px;
+    }
+    
+    .research__content-text {
+        line-height: 1.6em;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    
+    .research__link {
+        line-height: 1.6em;
+        font-size: 18px;
+    }
+}
+
+/***************************************************************/

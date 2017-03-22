@@ -120,12 +120,37 @@
 /*******************Desktop ver.******************************/
 
 @media (min-width: 1210px) {
+    .download-page__background-image {
+        height: 850px;
+        background-size: cover;
+    }
+    
     .download-page__image {
         left: 475px;
+        height: 645px;
     }
     
     .download-page__holder {
         left: 130px;
+        top: 215px;
+        width: 300px;
+    }
+    
+    .download-page__title {
+        font-size: 50px;
+        width: 230px;
+    }
+    
+    .download-page__link--btn {
+        margin-top: 55px;
+        margin-bottom: 60px;
+        font-size: 21px;
+    }
+    
+    .download-page__description {
+        line-height: 1.3em;
+        font-size: 18px;
+        padding: 50px 0;
     }
 }
 

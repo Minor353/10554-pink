@@ -40,7 +40,6 @@
     line-height: 1.7em;
     font-size: 14px;
     text-align: center;
-    padding: 0 30px;
     margin-bottom: 30px;
 }
 
@@ -50,14 +49,20 @@
     font-size: 18px;
 }
 
-.features__image {
-    width: 160px;
-    margin: 0 auto;
-}
-
-.features__image-desktop {
+.features__image--display {
     display: none;
 }
+
+.features__item--invert {
+    display: flex;
+    margin: 0;
+    flex-direction: column-reverse;
+}
+
+.features__image--position {
+    margin-top: 40px;
+}
+
 /********************************************/
 
 /********************Tablet ver.*********************/
@@ -77,24 +82,11 @@
         margin-bottom: 90px;
     }
     
-    .features__item-holder {
-        float: right;
-        width: 310px;
-    }
-    
-    .features__image {
-        float: left;
-        
-    }
-    
     .features__image img {
         width: 275px;
         background-size: cover; 
     }
-    
-    .features__image-desktop {
-    display: none;
-    }
+
     
     .features__item {
         text-align: left;
@@ -102,6 +94,24 @@
     
     .features__decoration {
         border-right: 700px solid #f2f2f2;
+    }
+    
+    .features__item-holder {
+         width: 310px;
+    }
+    
+    .features__items-holder {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-bottom: 20px;
+    }
+    
+    .features__image--position {
+        position: absolute;
+        left: 40px;
+        bottom: 0;
     }
 }
 
@@ -124,7 +134,6 @@
     
     .features__item {
         text-align: center;
-        width: 235px;
     }
     
     .features__item-caption {
@@ -137,25 +146,27 @@
         font-size: 18px;
     }
     
-    .features__items {
-        display: flex;
-        flex-direction: column-reverse;
+    .features__image--display {
+       display: block;
     }
     
-    .features__item-holder {
-        float: none;
-        width: auto;
-        display: flex;
-        justify-content: space-around;
+    .features__image--position {
+        position: inherit;
+        margin: 0;
     }
     
-    .features__image-desktop {
-        display: block;
+    .features__item--invert {
+        flex-direction: column;
+        padding: 0;
     }
     
-    .features__image-holder {
+     .features__items-holder {
+        position: relative;
         display: flex;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: space-around; 
+        align-items: flex-start;
+        padding-bottom: 20px;
     }
     
 }

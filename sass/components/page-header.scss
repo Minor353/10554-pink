@@ -67,18 +67,32 @@
 /*******************Desktop ver.******************************/
 
 @media (min-width: 1210px) {
-   
-    
-    .main-nav__toggle {
-        display: none;
+    body {
+        position: relative;
     }
     
-    .main-nav__panel {
-        display: inline-block;
+    .main-nav {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 120px;
+        background-color: rgba(40, 54, 69, 0.7);;
     }
     
     .main-nav__wrapper {
-        display: inline-block;
+        margin-left: 160px;
+    }
+    
+    .main-nav__panel {
+        padding: 0;  
+        border: 0;
+        margin-left: 130px; /***Уберу костыль на этапи адаптации графики**/
+    }
+    
+    .main-nav__toggle {
+        display: none;
     }
     
     .main-nav__item {
@@ -90,7 +104,8 @@
         line-height: 1em;
         border-bottom: 0px solid;
         text-transform: none;
-        margin-left: 75px;
+        padding: 35px 0;
+        margin-left: 80px;
     }
 }
 
