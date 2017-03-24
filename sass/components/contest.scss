@@ -10,7 +10,7 @@
     line-height: 1.2em;
     font-size: 24px;
     background: url(../../img/bg-back-mobile@1x.jpg) no-repeat;
-    background-position: -195px -75px; 
+    background-position: center; 
     padding-top: 25px;
     padding-bottom: 55px;
     padding-left: 45px;
@@ -27,6 +27,10 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.contest__description-request {
+    display: none;
 }
 
 
@@ -66,11 +70,13 @@
 
 .contest__form-legend {
     text-align: center;
+    text-transform: uppercase;
     color: #d22856;
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 14px; 
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    width: 220px;
 }
 
 .contest__label-chekbox {
@@ -108,6 +114,7 @@
 
 .contest__reminder {
     text-align: center;
+    text-transform: uppercase;
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px;
@@ -127,27 +134,112 @@
     }
     
     .contest__description{
-    line-height: 1.6em;
-    font-size: 18px; 
-    padding-top: 90px;
-    padding-bottom: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
+        line-height: 1.6em;
+        font-size: 18px; 
+        padding-top: 90px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .contest__description-request {
+        display: inline;
+    }
+    
+    .contest__user-date-holder {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    } 
     
     .contest__form-label {
-        display: block;
+        text-transform: uppercase;
+        margin-right: 20px;
     }
     
     .contest__input {
-        display: inline-block;
-        width: 80%;
+        width: 100%;
+        margin-bottom: 10px;
     }
     
     .contest__user-date-wrapper {
         display: flex;
         flex-direction: column-reverse;
     }
+    
+    .contest__user-soft {
+        background: #ffffff;
+    }
+    
+    .contest__user-date {
+        border: 2px solid #e5e5e5;
+        margin: 0;
+        margin-bottom: 56px;
+        padding: 30px 57px;
+    }
+    
+    .contest__user-date--style {
+        border: 0px solid;
+        padding: 30px 0;
+    }
+    
+    .contest__user-date--style :last-child {
+        margin-bottom: 0;
+    }
+    
+    .contest__form-holder {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .contest__form-label--position {
+        margin-left: 20px;
+        margin-bottom: 35px;
+    }
+    
+    .contest__user-achieve {
+        background: #FFFFFF;
+    }
+    
+    .contest__form-legend {
+        padding: 0 23px;
+    }
+    
+    .contest__btn {
+        margin: 0;
+        padding: 15px 57px;
+    }
+    .contest__reminder {
+        display: inline-block;
+        margin-left: 220px;
+    }
+    
+    .contest__input--width {
+        width: 95%;
+    }
 }
 
 /********************************************/
+
+/*********************Desktop ver.*****************************/
+
+@media (min-width: 1210px) {
+    .contest__title {
+        background-size: 160%;
+        font-size: 50px;
+        padding-top: 175px;
+        padding-bottom: 85px;
+        padding-left: 195px;
+        padding-right: 190px;
+    }
+    
+    .contest__description{ 
+        padding-top: 90px;
+        padding-bottom: 30px;
+        padding-left: 195px;
+        padding-right: 200px;
+    }
+    
+}
+
+/*************************************************************/

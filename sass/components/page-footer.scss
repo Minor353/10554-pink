@@ -31,17 +31,11 @@
 /************Tablet ver.********************/
 
 @media (min-width: 740px) {
-    .page-footer--index {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 35px;
-    }
-    
     .page-footer {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding-top: 35px;
     }
 }
 

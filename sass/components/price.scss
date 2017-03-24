@@ -185,11 +185,12 @@
     }
     
     .price__access--show {
+        display: flex;
+        align-items: center;
         line-height: 2.1em;
         font-size: 14px;
         padding: 0;
         padding-left: 10px;
-        vertical-align: baseline;
     }
     
     .price__title-hidden {
@@ -216,3 +217,23 @@
 }
 
 /**********************************************/
+
+/*******************Descktop ver.**************************/
+
+@media (min-width: 1210px) {
+    .price__item {
+       width: 232px;
+    }
+    
+    .price__access--show {
+        padding-left: 20px;
+    }
+    
+    .price__items {
+        margin-left: 136px;
+    }
+    
+       
+}
+
+/**********************************************************/

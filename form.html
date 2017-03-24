@@ -33,27 +33,31 @@
               Конкурс на самое безбашенное путешествие с Пинк
           </div>
           <div class="contest__description">
-              Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! 
+              Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! <span class="contest__description-request">Пожалуйста, заполните форму ниже:</span> 
           </div>
           
           <form class="contest__form" action="https://echo.htmlacademy.ru/" method="post">
             
-             <fieldset class="contest__user-date">
-                  <label class="contest__form-label">Фамилия:
+             <fieldset class="contest__user-date contest__user-date--style">
+                 <div class="contest__user-date-holder">
+                      <label class="contest__form-label" for="second-name">Фамилия:</label>
                       <input class="contest__input" type="text" name="second-name" placeholder="Укажите фамилию*" id="second-name" required>
-                  </label>
-              
-                  <lable class="contest__form-label">Имя:
+                 </div> 
+                  
+                 <div class="contest__user-date-holder">
+                      <label class="contest__form-label" for="first-name">Имя:</label>
                       <input class="contest__input" type="text" name="first-name" placeholder="Введите ваше имя*" id="first-name" required>
-                  </lable>
+                 </div>
               
-                  <label class="contest__form-label">Отчество:
+                 <div class="contest__user-date-holder">
+                      <label class="contest__form-label" for="middle-name">Отчество:</label>
                       <input class="contest__input" type="text" name="middle-name" placeholder="Ну и отчество тоже" id="middle-name">
-                  </label>
+                 </div>
+                 
               </fieldset>
                 <div class="contest__user-date-wrapper">
               <fieldset class="contest__user-date  contest__user-achieve">
-                    <p class="contest__form-legend">Ваши безбашенные<br> достижения в путешествии</p>
+                  <legend class="contest__form-legend">Ваши безбашенные достижения в путешествии</legend>
                   <label class="contest__label-chekbox">
                       <input class="contest__chekbox" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" checked>
                       <span class="contest__chekbox-indicator"></span>
@@ -92,17 +96,20 @@
               </fieldset>
               
               <fieldset class="contest__user-date">
-                  <label class="contest__form-label">Номер телефона
-                      <input class="contest__input" type="tel" name="tel-num" id="tel-num" placeholder="Номер, пожалуйста">
-                  </label>
+                 <legend class="contest__form-legend">Контактная информация</legend>
+                     <div class="contest__form-holder">
+                          <label class="contest__form-label  contest__form-label--position" for="tel-num">Номер телефона</label>
+                          <input class="contest__input" type="tel" name="tel-num" id="tel-num" placeholder="Номер, пожалуйста">
+                    </div>
                   
-                  <label class="contest__form-label">Адрес почты
-                      <input class="contest__input" type="email" name="email-address" id="email" placeholder="Введите почту*" required>
-                  </label>
+                    <div class="contest__form-holder">
+                          <label class="contest__form-label  contest__form-label--position" for="email">Адрес почты</label>
+                          <input class="contest__input" type="email" name="email-address" id="email" placeholder="Введите почту*" required>
+                    </div>
               </fieldset>
               
               <fieldset class="contest__user-date contest__user-soft">
-                  <p class="contest__form-legend">С каким приложением<br> путешествовали?</p>
+                  <legend class="contest__form-legend">С каким приложением путешествовали?</legend>
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="IOS">
                       <span class="contest__radio-indicator"></span>
@@ -123,13 +130,14 @@
               </fieldset>
               </div>
               <fieldset class="contest__user-date">
-                  <p class="contest__form-legend">Опишите свои эмоции</p>
-                  <textarea class="contest__input" name="recall" id="recall" cols="10" rows="6" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                  <legend class="contest__form-legend">Опишите свои эмоции</legend>
+                  <textarea class="contest__input  contest__input--width" name="recall" id="recall" cols="10" rows="6"  placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
               </fieldset>
               
               <button class="contest__btn" type="submit">Отправить форму</button>
+              <div class="contest__reminder">* -Обязательные поля</div>
           </form>
-          <p class="contest__reminder">* -Обязательные поля</p>
+          
       </section>
       
       <footer class="page-footer  container">
