@@ -140,7 +140,7 @@
 
 /****************Tablet ver.*******************/
 
-@media (min-width: 740px) {
+@media (min-width: $tablet) {
     .price {
         padding-top: 30px;
         padding-bottom: 70px;
@@ -220,7 +220,7 @@
 
 /*******************Descktop ver.**************************/
 
-@media (min-width: 1210px) {
+@media (min-width: $desk) {
     .price__item {
        width: 232px;
     }

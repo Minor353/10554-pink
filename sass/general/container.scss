@@ -3,14 +3,14 @@
     margin: 0 auto;
 }
 
-@media (min-width: 740px){
+@media (min-width: $tablet){
  .container {   
     width: 700px;
     margin: 0 auto;
  }
 }
 
-@media (min-width: 1210px){
+@media (min-width: $desk){
  .container {   
     width: 1200px;
     margin: 0 auto;

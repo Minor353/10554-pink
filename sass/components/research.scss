@@ -8,7 +8,7 @@
 
 /**********************Tablet ver.****************************/
 
-@media (min-width: 740px) {
+@media (min-width: $tablet) {
     .research {
         display: flex;
         padding-top: 50px;
@@ -48,7 +48,7 @@
 
 /****************Desktop ver.***********************************/
 
-@media (min-width: 1210px) {
+@media (min-width: $desk) {
     .research {
         background: #f2f2f2;
     }

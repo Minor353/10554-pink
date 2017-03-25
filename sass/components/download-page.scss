@@ -81,7 +81,7 @@
 
 /*******************tablet ver.**************************/
 
-@media (min-width: 740px) {
+@media (min-width: $tablet) {
     .download-page__background-image {
         height: 620px;
         background-size: cover;
@@ -119,7 +119,7 @@
 
 /*******************Desktop ver.******************************/
 
-@media (min-width: 1210px) {
+@media (min-width: $desk) {
     .download-page__background-image {
         height: 850px;
         background-size: 160%;

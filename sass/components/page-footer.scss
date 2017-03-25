@@ -30,7 +30,7 @@
 
 /************Tablet ver.********************/
 
-@media (min-width: 740px) {
+@media (min-width: $tablet) {
     .page-footer {
         display: flex;
         justify-content: space-between;

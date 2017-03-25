@@ -67,7 +67,7 @@
 
 /********************Tablet ver.*********************/
 
-@media (min-width: 740px) {
+@media (min-width: $tablet) {
     .features__titles{
         font-size: 40px;
     }
@@ -119,7 +119,7 @@
 
 /*******************Desktop ver.******************************/
 
-@media (min-width: 1210px) {
+@media (min-width: $desk) {
     .features__titles {
         font-size: 50px;
         padding-top: 70px;

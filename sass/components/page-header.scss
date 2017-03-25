@@ -56,7 +56,7 @@
 
 /*******************Tablet ver.*******************************/
 
-@media (min-width: 740px) {
+@media (min-width: $tablet) {
    .main-nav__panel {
         padding: 40px;  
     }    
@@ -66,7 +66,7 @@
 
 /*******************Desktop ver.******************************/
 
-@media (min-width: 1210px) {
+@media (min-width: $desk) {
     body {
         position: relative;
     }

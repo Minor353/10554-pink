@@ -67,7 +67,7 @@
 
 /**************Tablet ver.**********************/
 
-@media (min-width: 740px) {
+@media (min-width: $tablet) {
     .photo-editor {
         display: flex;
         padding: 50px 40px;
@@ -104,7 +104,7 @@
 
 /*******************Desktop ver.******************************/
 
-@media (min-width: 1210px) {
+@media (min-width: $desk) {
     
 }
 
