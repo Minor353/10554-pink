@@ -28,9 +28,9 @@
     font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 1em;
     font-size: 18px;
-    color: #ffffff;
+    color: $white;
     text-align: center;
-    border: 3px solid #ffffff;
+    border: 3px solid $white;
     border-radius: 25px;
     width: 275px;
     padding: 15px 0;
@@ -73,7 +73,7 @@
     line-height: 1.7em;
     font-size: 14px;
     font-weight: lighter;
-    color: #c3c5c8;
+    color: $gray;
     padding: 35px 40px;
     text-align: center;
 }
@@ -99,7 +99,7 @@
         font-family: OpenSansLight, Verdana, sans-serif;
         line-height: 1.2em;
         font-size: 40px;
-        color: #c3c5c8;
+        color: $gray;
         text-align: center;
     }
     

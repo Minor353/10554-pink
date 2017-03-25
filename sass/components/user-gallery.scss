@@ -2,7 +2,7 @@
 
 .user-gallery__title {
     text-align: center;
-    color: #c6cace;
+    color: $ashen;
     font-family: OpenSansLight;
     line-height: 1.2em;
     font-size: 24px;
@@ -17,7 +17,7 @@
 
 .user-gallery__text-preview {
     text-align: center;
-    color: #535e6a;
+    color: $dark-ashen;
     font-family: OpenSans;
     line-height: 2.1em;
     font-size: 14px; 
@@ -37,8 +37,8 @@
     line-height: 2em;
     font-size: 12px;
     text-transform: uppercase;
-    color: #ffffff;
-    background: #d22856;
+    color: $white;
+    background: $pink;
     padding: 5px 18px;
     position: absolute;
     right: 20px;
@@ -52,7 +52,7 @@
 .user-gallery__holder-top {
     padding: 0 20px;
     margin: 0 auto;
-    background: #FFFFFF;
+    background: $white;
 }
 
 .user-gallery__wrapper {
@@ -66,7 +66,7 @@
 }
 
 .user-gallery__user-post {
-    background: #f2f2f2;
+    background: $coffe;
     margin-bottom: 20px;
 }
 
@@ -89,7 +89,7 @@
     padding-left: 17px;
     padding-right: 20px;
     padding-bottom: 25px;
-    background: #f2f2f2;
+    background: $coffe;
 }
 
 

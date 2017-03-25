@@ -10,8 +10,8 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    box-shadow: 0px 0px 2px 0px #bec2c7;
-    background: #bec2c7;
+    box-shadow: 0px 0px 2px 0px $dark-grey;
+    background: $dark-grey;
     margin: 0 3px;
     cursor: pointer;
     vertical-align: middle;
@@ -20,8 +20,8 @@
 #price-input-1:checked ~ .slider__toggles .slider__toggle[for="price-input-1"],
 #price-input-2:checked ~ .slider__toggles .slider__toggle[for="price-input-2"],
 #price-input-3:checked ~ .slider__toggles .slider__toggle[for="price-input-3"] {
-    background: #ffffff;
-    border: 3px solid #000000;
+    background: $white;
+    border: 3px solid $black;
 }
 
 #price-input-1:checked ~ .price__items .price__item {
@@ -44,7 +44,7 @@
 
 .price {
     position: relative;
-    background: #f2f2f2;
+    background: $coffe;
     padding-top: 60px;
     padding-bottom: 45px;
     /*overflow: hidden;*/
@@ -62,7 +62,7 @@
     height:0;
     border: 25px solid transparent;
     border-bottom: 0;
-    border-right: 320px solid #f2f2f2;
+    border-right: 320px solid $coffe;
 }
 
 .price__items {
@@ -83,12 +83,12 @@
 
 .price__title {
     background: #283645;
-    color: #ffffff;
+    color: $white;
     text-align: center;
     text-transform: uppercase;
     padding: 15px 0;
-    border-left: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
+    border-left: 2px solid $white;
+    border-right: 2px solid $white;
 }
 
 .price__title--hit {
@@ -118,15 +118,15 @@
 }
 
 .price__access {
-    background: #ffffff;
+    background: $white;
     color: #283645;
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px;
     padding: 15px 20px;
-    border-left: 1px solid #e5e5e5; 
-    border-right: 1px solid #e5e5e5;
-    border-bottom: 2px solid #e5e5e5;
+    border-left: 1px solid $milk; 
+    border-right: 1px solid $milk;
+    border-bottom: 2px solid $milk;
 }
 
 .price__access--yes {
@@ -151,7 +151,7 @@
     top: -54px;
     border: 55px solid transparent;
     border-bottom: 0;
-    border-right: 705px solid #f2f2f2;
+    border-right: 705px solid $coffe;
     }
     
     .price__item {
@@ -207,12 +207,12 @@
     
     .price__access--yes {
     background: url("../../img/icon-yes.svg") no-repeat center;
-    background-color: #ffffff;    
+    background-color: $white;    
     }
 
 .price__access--no {
     background: url("../../img/icon-no.svg") no-repeat center;
-    background-color: #ffffff; 
+    background-color: $white; 
     }
 }
 

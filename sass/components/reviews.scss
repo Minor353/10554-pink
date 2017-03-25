@@ -9,8 +9,8 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    box-shadow: 0px 0px 2px 0px #bec2c7;
-    background: #bec2c7;
+    box-shadow: 0px 0px 2px 0px $dark-grey;
+    background: $dark-grey;
     margin: 0 3px;
     cursor: pointer;
     vertical-align: middle;
@@ -19,8 +19,8 @@
 #reviews-input-1:checked ~ .slider__toggles .slider__toggle[for="reviews-input-1"],
 #reviews-input-2:checked ~ .slider__toggles .slider__toggle[for="reviews-input-2"],
 #reviews-input-3:checked ~ .slider__toggles .slider__toggle[for="reviews-input-3"] {
-    background: #ffffff;
-    border: 3px solid #000000;
+    background: $white;
+    border: 3px solid $black;
 }
 
 #reviews-input-1:checked ~ .reviews__items .slider__item {

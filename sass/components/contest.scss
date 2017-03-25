@@ -5,7 +5,7 @@
 
 .contest__title {
     text-align: center;
-    color: #c6cace;
+    color: $ashen;
     font-family: OpenSansLight, Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 24px;
@@ -19,7 +19,7 @@
 
 .contest__description{
     text-align: center;
-    color: #535e6a;
+    color: $dark-ashen;
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px; 
@@ -41,7 +41,7 @@
 }
 
 .contest__form-label {
-    color: #d22856;
+    color: $pink;
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px; 
@@ -55,7 +55,7 @@
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.6em;
     font-size: 18px;
-    border: 2px solid #e5e5e5;
+    border: 2px solid $milk;
     border-radius: 2px;
     padding: 15px 0;
     padding-left: 20px;
@@ -64,14 +64,14 @@
 
 
 .contest__user-achieve {
-    background: #f2f2f2;
+    background: $coffe;
     padding: 30px 20px;
 }
 
 .contest__form-legend {
     text-align: center;
     text-transform: uppercase;
-    color: #d22856;
+    color: $pink;
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 14px; 
@@ -88,7 +88,7 @@
 }
 
 .contest__user-soft {
-    background: #f2f2f2;
+    background: $coffe;
 }
 
 .contest__label-radio {
@@ -104,9 +104,9 @@
     line-height: 1.6em;
     font-size: 18px;
     text-transform: uppercase;
-    color: white;
-    background: #2aab6d;
-    border: 1px solid #2aab6d;
+    color: $white;
+    background: $green;
+    border: 1px solid $green;
     border-radius: 2px;
     padding: 15px 45px;
     margin: 0 20px;
@@ -168,11 +168,11 @@
     }
     
     .contest__user-soft {
-        background: #ffffff;
+        background: $white;
     }
     
     .contest__user-date {
-        border: 2px solid #e5e5e5;
+        border: 2px solid $milk;
         margin: 0;
         margin-bottom: 56px;
         padding: 30px 57px;
@@ -198,7 +198,7 @@
     }
     
     .contest__user-achieve {
-        background: #FFFFFF;
+        background: $white;
     }
     
     .contest__form-legend {

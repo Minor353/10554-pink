@@ -19,7 +19,7 @@
 }
 
 .features__items {
-    background: #f2f2f2;
+    background: $coffe;
     padding-top: 50px;
     position: relative;
 }
@@ -32,7 +32,7 @@
     height:0;
     border:30px solid transparent;
     border-bottom:0;
-    border-right: 320px solid #f2f2f2;
+    border-right: 320px solid $coffe;
 }
 
 .features__item {
@@ -93,7 +93,7 @@
     }
     
     .features__decoration {
-        border-right: 700px solid #f2f2f2;
+        border-right: 700px solid $coffe;
     }
     
     .features__item-holder {
