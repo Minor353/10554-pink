@@ -124,6 +124,8 @@
     .reviews__item {
         width: 780px;
         padding: 0 85px;
+        padding-top: 175px;
+        margin-bottom: 95px;
     }
     
     .reviews__item-title {
@@ -132,7 +134,7 @@
     }
     
     #reviews-input-1:checked ~ .reviews__items .slider__item {
-        transform: translate(150px);
+        transform: translate(0px);
     }
     
     .slider__toggles {

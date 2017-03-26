@@ -27,7 +27,7 @@
 .features__decoration {
     position: absolute;
     right: 0px;
-    top: -30px;
+    top: -29px;
     width:0;
     height:0;
     border:30px solid transparent;
@@ -93,6 +93,7 @@
     }
     
     .features__decoration {
+        top: -29px;
         border-right: 700px solid $coffe;
     }
     
@@ -123,8 +124,8 @@
     .features__titles {
         font-size: 50px;
         padding-top: 70px;
-        padding-right: 225px;
-        padding-left: 225px;
+        padding-right: 100px;
+        padding-left: 100px;
     }
     
     .features__title--bottom {
@@ -134,6 +135,11 @@
     
     .features__item {
         text-align: center;
+    }
+    
+    .features__decoration {
+        border: 65px solid transparent;
+        border-right: 960px solid $coffe;
     }
     
     .features__item-caption {

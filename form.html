@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-     <header class="page-header container">
+     <header class="page-header ">
           <nav class="main-nav  main-nav--closed  main-nav--nojs">
               <div class="main-nav__panel clearfix">
               <div class="main-nav__logo">
@@ -28,7 +28,7 @@
           </nav>
       </header>
       
-      <section class="contest  container">
+      <section class="contest">
           <div class="contest__title">
               Конкурс на самое безбашенное путешествие с Пинк
           </div>
@@ -36,8 +36,8 @@
               Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! <span class="contest__description-request">Пожалуйста, заполните форму ниже:</span> 
           </div>
           
-          <form class="contest__form" action="https://echo.htmlacademy.ru/" method="post">
-            
+          <form class="contest__form  container" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="contest__user-date-wrapper">
              <fieldset class="contest__user-date contest__user-date--style">
                  <div class="contest__user-date-holder">
                       <label class="contest__form-label" for="second-name">Фамилия:</label>
@@ -55,7 +55,7 @@
                  </div>
                  
               </fieldset>
-                <div class="contest__user-date-wrapper">
+                
               <fieldset class="contest__user-date  contest__user-achieve">
                   <legend class="contest__form-legend">Ваши безбашенные достижения в путешествии</legend>
                   <label class="contest__label-chekbox">
@@ -88,14 +88,14 @@
                       Удержал башню
                   </label>
                   
-                  <label class="contest__label-chekbox">
+                  <label class="contest__label-chekbox  contest__label-chekbox--margin">
                       <input class="contest__chekbox" type="checkbox" name="defeat-of-hotel" id="defeat-of-hotel">
                       <span class="contest__chekbox-indicator"></span>
                       Разгромил отель
                   </label>
               </fieldset>
               
-              <fieldset class="contest__user-date">
+              <fieldset class="contest__user-date contest__user-date-contact">
                  <legend class="contest__form-legend">Контактная информация</legend>
                      <div class="contest__form-holder">
                           <label class="contest__form-label  contest__form-label--position" for="tel-num">Номер телефона</label>
@@ -103,7 +103,7 @@
                     </div>
                   
                     <div class="contest__form-holder">
-                          <label class="contest__form-label  contest__form-label--position" for="email">Адрес почты</label>
+                          <label class="contest__form-label  contest__form-label--position contest__form-label--margin" for="email">Адрес почты</label>
                           <input class="contest__input" type="email" name="email-address" id="email" placeholder="Введите почту*" required>
                     </div>
               </fieldset>

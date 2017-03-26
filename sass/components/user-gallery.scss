@@ -6,12 +6,12 @@
     font-family: OpenSansLight;
     line-height: 1.2em;
     font-size: 24px;
-    background: url(../../img/bg-back-mobile@1x.jpg) no-repeat;
-    background-position: -195px -75px; 
+    background: url(../../img/bg-back-mobile@1x.jpg) no-repeat center; 
     padding-top: 25px;
     padding-bottom: 75px;
     padding-left: 45px;
     padding-right: 45px;
+    background-size: cover;
 }
 
 
@@ -46,7 +46,11 @@
 
 .user-gallery__user-foto--top {
     display: block;
-    margin: 0 auto;
+    width: 100%;
+}
+
+.user-gallery__user-foto {
+    width: 100%;
 }
 
 .user-gallery__holder-top {
@@ -86,7 +90,7 @@
 
 .user-gallery__items {
     padding-top: 15px;
-    padding-left: 17px;
+    padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 25px;
     background: $coffe;
@@ -121,13 +125,13 @@
 
 @media (min-width: $tablet) {
     .user-gallery__title {
-    font-size: 50px;
-    padding-top: 80px;
-    padding-bottom: 140px;
-    padding-left: 175px;
-    padding-right: 170px;  
-    background-position: center;    
-}
+        font-size: 50px;
+        padding-top: 80px;
+        padding-bottom: 140px;
+        padding-left: 175px;
+        padding-right: 170px;  
+        background-position: center;
+    }
     .user-gallery__text-preview {
         line-height: 1.6em;
         font-size: 18px;

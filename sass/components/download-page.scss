@@ -14,6 +14,7 @@
 .download-page__image {
     position: absolute;
     bottom: 0;
+    right: 65px;
 }
 .download-page__link{
     text-decoration: none;
@@ -89,7 +90,7 @@
     
     .download-page__image {
         height: 545px;
-        left: 185px;
+        right: 40px;
     }
     
     .download-page__title {
@@ -107,7 +108,7 @@
         width: 280px;
         position: absolute;
         top: 90px;
-        left: 40px;
+        left: 50px;
     }
     
     .download-page__description {
