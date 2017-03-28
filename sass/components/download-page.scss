@@ -127,16 +127,22 @@
     }
     
     .download-page__image {
-        left: 475px;
+        position: inherit;
         height: 645px;
     }
     
     .download-page__holder {
-        left: 130px;
-        top: 215px;
+        position: inherit;
         width: 300px;
     }
     
+    .download-page__position-holder{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 100%;
+    }
     .download-page__title {
         font-size: 50px;
         width: 230px;

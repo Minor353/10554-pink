@@ -8,28 +8,27 @@
   </head>
   <body>
       <header class="page-header">
-          <nav class="main-nav  main-nav--closed  main-nav--nojs">
+          <nav class="main-nav  container  main-nav--closed  main-nav--nojs">
               <div class="main-nav__panel">
               <div class="main-nav__logo">
                   <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
               </div>
               <button class="main-nav__toggle" type="button"></button>
               </div>
-              <div class="main-nav__wrapper">
                   <ul class="main-nav__items">
                       <li class="main-nav__item"><a class="main-nav__link" href="">Главная</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
                   </ul>
-              </div>
           </nav>
       </header>
       
       <section class="download-page">
           <div class="download-page__background-image">
+             <div class="download-page__position-holder  container">
               <img class="download-page__image" src="img/iphone-hand-mobile@1x.png" alt="Pink image">
-          </div>
+          
           <div class="download-page__holder">
               <div class="download-page__title">Взгляните на жизнь иначе!</div>
               <a href="#" class="download-page__link  download-page__link--btn">Скачать приложение</a>
@@ -43,10 +42,12 @@
                   Windows Phone, OS X, Windows 8
               </div>
           </div>
+              </div>
+          </div>
       </section>
       
-      <section class="features container">
-          <div class="features__titles">
+      <section class="features">
+          <div class="features__titles  container">
               <div class="features__title">
                   Устали от серости мегаполиса?
               </div>
@@ -57,7 +58,7 @@
           
           <div class="features__items">
               <div class="features__decoration"></div>
-              <div class="features__items-holder">
+              <div class="features__items-holder  container">
                   <div class="features__item">
                      <div class="features__image  features__image--display">
                          <img src="img/pink-index-mobile_03.png" alt="Pink image">
@@ -101,7 +102,8 @@
           </div>
       </section>
       
-      <section class="research container">
+      <section class="research">
+         <div class="research__holder  container">
           <div class="research__timer">
               <img src="img/24.png" alt="timer">
           </div>
@@ -111,6 +113,7 @@
                   Британские ученые провели иследования и доказали, что положительный эффект от использования приложения длится целые сутки!
               </div>
               <a class="research__link" href="#">Узнать больше об иследованиях</a>
+          </div>
           </div>
       </section>
       
@@ -162,7 +165,8 @@
           </div>
       </section>
       
-      <section class="price container">
+      <section class="price">
+         <div class="price__holder  container">
           <div class="price__decoration"></div>
           <div class="price__wrapper  slider">
               <input class="price__input" type="radio"  name="price" id="price-input-1">
@@ -236,6 +240,7 @@
                   <label class="slider__toggle" for="price-input-2"></label>
                   <label class="slider__toggle" for="price-input-3"></label>
               </div>
+          </div>
           </div>
      </section>
      

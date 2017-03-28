@@ -1,12 +1,5 @@
 
 /*************Mobile ver.****************/
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
 
 .page-header {
     font-family: OpenSansBold, Verdana, sans-serif;
@@ -20,8 +13,8 @@
     border-bottom: 1px groove $black;  
 }
 
-.main-nav__logo {
-    margin-right: auto;
+.main-nav__items {
+    width: 637px;
 }
 
 .main-nav__toggle {
@@ -71,33 +64,35 @@
         position: relative;
     }
     
-    .main-nav {
+    .page-header {
         position: absolute;
         z-index: 2;
+        background-color: rgba(40, 54, 69, 0.5);
+        width: 100%;
+    }
+    
+    .main-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-right: 120px;
-        background-color: rgba(40, 54, 69, 0.5);;
+        margin: 0 auto;
     }
     
-    .main-nav__wrapper {
-        margin-left: 160px;
+    .main-nav__items {
+        display: flex;
+        justify-content: space-between;
     }
     
     .main-nav__panel {
         padding: 0;  
         border: 0;
-        margin-left: 130px; /***Уберу костыль на этапи адаптации графики**/
     }
     
     .main-nav__toggle {
         display: none;
     }
     
-    .main-nav__item {
-      display: inline-block;
-    }
+   
     
     .main-nav__link {
         font-family: OpenSans, Verdana, sans-serif;
@@ -105,7 +100,7 @@
         border-bottom: 0px solid;
         text-transform: none;
         padding: 35px 0;
-        margin-left: 80px;
+        /*margin-left: 80px;*/
     }
 }
 
