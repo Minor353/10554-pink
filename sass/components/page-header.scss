@@ -43,8 +43,9 @@
     line-height: 1.7em;
     font-size: 18px;
     color: $white;
-    border-bottom: 1px groove $black;
-    padding: 17px 0;
+    border-top: 1px solid #485461;
+    border-bottom: 1px solid $black;
+    padding: 16px 0;
     display: block;
 }
 

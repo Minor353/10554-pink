@@ -7,8 +7,8 @@
     line-height: 1.2em;
     font-size: 24px;
     background: url(../../img/bg-back-mobile@1x.jpg) no-repeat center; 
-    padding-top: 25px;
-    padding-bottom: 75px;
+    padding-top: 28px;
+    padding-bottom: 86px;
     padding-left: 45px;
     padding-right: 45px;
     background-size: cover;
@@ -21,8 +21,8 @@
     font-family: OpenSans;
     line-height: 2.1em;
     font-size: 14px; 
-    padding-top: 42px;
-    padding-bottom: 45px;
+    padding-top: 46px;
+    padding-bottom: 52px;
     padding-left: 35px;
     padding-right: 35px;
 }
@@ -60,6 +60,7 @@
 }
 
 .user-gallery__wrapper {
+    box-sizing: border-box;
     padding: 0 20px;
 }
 
@@ -71,7 +72,7 @@
 
 .user-gallery__user-post {
     background: $coffe;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .user-gallery__items--inine {
@@ -89,7 +90,7 @@
 }
 
 .user-gallery__items {
-    padding-top: 15px;
+    padding-top: 18px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 25px;
@@ -98,7 +99,7 @@
 
 
 .user-gallery__likes {
-     margin-top: 20px;
+     margin-top: 12px;
 }
 
 .user-gallery__likes-timer {
@@ -113,8 +114,8 @@
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 12px;
+    padding-bottom: 46px;
 }
 
 

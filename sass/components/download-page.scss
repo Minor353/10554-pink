@@ -9,11 +9,11 @@
     position: relative; 
     background: url(../../img/bg-back-mobile@1x.jpg) no-repeat bottom;  
     background-position: 50% -76px;
-    background-size: 701px;
+    background-size: 710px;
 }
 
 .download-page__image {
-   padding-top: 100px;
+   padding-top: 108px;
 }
 .download-page__link{
     text-decoration: none;
@@ -33,9 +33,9 @@
     border: 3px solid $white;
     border-radius: 30px;
     width: 275px;
-    padding: 15px 0;
+    padding: 14px 0;
     margin: 0 auto;
-    margin-top: 28px;
+    margin-top: 27px;
     margin-bottom: 35px;
 }
 
@@ -43,6 +43,8 @@
     display: flex;
     width: 220px;
     margin: 0 auto;
+    padding: 0 6px;
+    box-sizing: border-box;
 }
 
 .download-page__link--apple {

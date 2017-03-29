@@ -34,18 +34,29 @@
     border-right: 100vw solid $coffe;
 }
 
+.features__items-holder {
+    box-sizing: border-box;
+    padding: 0 19px;
+}
+
 .features__item {
     font-family: OpenSansLight, Verdana, sans-serif;
     line-height: 1.7em;
     font-size: 14px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
 }
 
 .features__item-caption {
     font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 0.5em;
     font-size: 18px;
+}
+
+.features__item-description {
+    font-family: OpenSans, Verdana, sans-serif;
+    line-height: 1.7em;
+    font-size: 14px;
 }
 
 .features__image--display {
@@ -60,7 +71,7 @@
 
 .features__image--position {
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 30px;
     img {
         display: block;
     }
