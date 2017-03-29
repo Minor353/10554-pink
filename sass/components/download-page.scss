@@ -7,14 +7,13 @@
 
 .download-page__background-image {
     position: relative; 
-    height: 395px;
     background: url(../../img/bg-back-mobile@1x.jpg) no-repeat bottom;  
+    background-position: 50% -76px;
+    background-size: 701px;
 }
 
 .download-page__image {
-    position: absolute;
-    bottom: 0;
-    right: 65px;
+   padding-top: 100px;
 }
 .download-page__link{
     text-decoration: none;
@@ -32,12 +31,12 @@
     color: $white;
     text-align: center;
     border: 3px solid $white;
-    border-radius: 25px;
+    border-radius: 30px;
     width: 275px;
     padding: 15px 0;
     margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin-top: 28px;
+    margin-bottom: 35px;
 }
 
 .download-page__link-holder {
@@ -75,7 +74,8 @@
     font-size: 14px;
     font-weight: lighter;
     color: $gray;
-    padding: 35px 40px;
+    padding: 35px 39px;
+    padding-top: 24px;
     text-align: center;
 }
 /********************************************/
@@ -84,13 +84,16 @@
 
 @media (min-width: $tablet) {
     .download-page__background-image {
-        height: 620px;
         background-size: cover;
+        background-position: center;
     }
     
     .download-page__image {
+        display: block;
+        margin-left: auto;
         height: 545px;
-        right: 40px;
+        padding: 0;
+        padding-top: 70px;
     }
     
     .download-page__title {
@@ -105,14 +108,23 @@
     }
     
     .download-page__holder {
-        width: 280px;
+        width: 295px;
         position: absolute;
         top: 90px;
-        left: 50px;
+        left: 80px;
+    }
+    
+    .download-page__link--btn {
+        width: 100%;
+        margin-bottom: 50px;
     }
     
     .download-page__description {
         padding: 35px 0;
+        font-family: OpenSansLight, Verdana, sans-serif;
+        line-height: 1.3em;
+        font-size: 18px;
+        text-align: center;
     }
 }
 
@@ -121,19 +133,22 @@
 /*******************Desktop ver.******************************/
 
 @media (min-width: $desk) {
+
     .download-page__background-image {
-        height: 850px;
         background-size: 160%;
+        padding-top: 106px;
     }
     
     .download-page__image {
         position: inherit;
         height: 645px;
+        padding-top: 98px;
     }
     
     .download-page__holder {
         position: inherit;
         width: 300px;
+        margin-bottom: 80px;
     }
     
     .download-page__position-holder{
@@ -157,7 +172,8 @@
     .download-page__description {
         line-height: 1.3em;
         font-size: 18px;
-        padding: 50px 0;
+        padding: 58px 0;
+        padding-bottom: 44px;
     }
 }
 
