@@ -37,9 +37,9 @@
 
 .contest__user-date {
     border: 0px solid;
-    margin: 0;
     margin-bottom: 40px;
     padding: 30px 20px;
+    box-sizing: border-box;
 }
 
 .contest__form-label {
@@ -68,6 +68,12 @@
 .contest__user-achieve {
     background: $coffe;
     padding: 30px 20px;
+}
+
+.contest__mobile-bg {
+    padding-top: 35px;
+    background: $coffe;
+    width: 100%;
 }
 
 .contest__form-legend {

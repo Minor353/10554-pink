@@ -36,9 +36,9 @@
               Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! <span class="contest__description-request">Пожалуйста, заполните форму ниже:</span> 
           </div>
           
-          <form class="contest__form  container" action="https://echo.htmlacademy.ru/" method="post">
+          <form class="contest__form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="contest__user-date-wrapper">
-             <fieldset class="contest__user-date contest__user-date--style">
+             <fieldset class="contest__user-date  container  contest__user-date--style">
                  <div class="contest__user-date-holder">
                       <label class="contest__form-label" for="second-name">Фамилия:</label>
                       <input class="contest__input" type="text" name="second-name" placeholder="Укажите фамилию*" id="second-name" required>
@@ -56,7 +56,8 @@
                  
               </fieldset>
                 
-              <fieldset class="contest__user-date  contest__user-achieve">
+                <div class="contest__mobile-bg">
+              <fieldset class="contest__user-date  container  contest__user-achieve">
                   <legend class="contest__form-legend">Ваши безбашенные достижения в путешествии</legend>
                   <label class="contest__label-chekbox">
                       <input class="contest__chekbox" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" checked>
@@ -94,8 +95,9 @@
                       Разгромил отель
                   </label>
               </fieldset>
-              
-              <fieldset class="contest__user-date contest__user-date-contact">
+                </div>
+                
+              <fieldset class="contest__user-date  container  contest__user-date-contact">
                  <legend class="contest__form-legend">Контактная информация</legend>
                      <div class="contest__form-holder">
                           <label class="contest__form-label  contest__form-label--position" for="tel-num">Номер телефона</label>
@@ -108,7 +110,8 @@
                     </div>
               </fieldset>
               
-              <fieldset class="contest__user-date contest__user-soft">
+              <div class="contest__mobile-bg">
+              <fieldset class="contest__user-date  container  contest__user-soft">
                   <legend class="contest__form-legend">С каким приложением путешествовали?</legend>
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="IOS">
@@ -128,8 +131,9 @@
                       Windows Phone
                   </label>
               </fieldset>
+                </div>
               </div>
-              <fieldset class="contest__user-date">
+              <fieldset class="contest__user-date  container">
                   <legend class="contest__form-legend">Опишите свои эмоции</legend>
                   <textarea class="contest__input  contest__input--width" name="recall" id="recall" cols="10" rows="6"  placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
               </fieldset>
