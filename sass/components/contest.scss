@@ -217,6 +217,10 @@
         margin-bottom: 50px;
     } 
     
+    .contest__mobile-bg {
+        background: $white;
+    }
+    
     .contest__form-label {
         text-transform: uppercase;
         margin-right: 20px;
@@ -242,7 +246,6 @@
     
     .contest__user-date {
         border: 2px solid $milk;
-        margin: 0;
         margin-bottom: 56px;
         padding: 30px 57px;
     }
