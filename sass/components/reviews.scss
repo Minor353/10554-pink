@@ -81,6 +81,7 @@
 /**************Tablet ver.**********************/
 
 @media (min-width: $tablet) {
+
     .reviews__item {
         width: 620px;
         padding: 0 40px;
@@ -98,6 +99,10 @@
         transform: translate(-1400px);
     }
     
+    .reviews__item-holder {
+        margin-top: 6px;
+        margin-bottom: 34px;
+    }
     
     .reviews__item-title {
         font-size: 20px;
@@ -105,6 +110,7 @@
     }
     
     .reviews__item-relation {
+        display: block;
         font-family: OpenSansLight, Verdana, sans-serif;
         line-height: 2.1em;
         font-size: 14px;

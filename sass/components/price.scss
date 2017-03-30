@@ -142,7 +142,7 @@
 
 @media (min-width: $tablet) {
     .price {
-        padding-top: 30px;
+        padding-top: 42px;
         padding-bottom: 70px;
     }
     
@@ -167,6 +167,7 @@
     .price__item-title {
         line-height: 1.8em;
         font-size: 16px;
+        margin: 0;
     }
     
     .price__title {
@@ -181,12 +182,13 @@
     .price__access {
         font-size: 0;
         padding: 0;
-        height: 50px;
+        height: 45px;
     }
     
     .price__access--show {
         display: flex;
         align-items: center;
+        text-transform: inherit;
         line-height: 2.1em;
         font-size: 14px;
         padding: 0;
@@ -194,7 +196,7 @@
     }
     
     .price__title-hidden {
-        height: 83px;
+        height: 76px;
     }
     
     .price__toggles {
