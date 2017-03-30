@@ -84,6 +84,7 @@
 @media (min-width: $tablet) {
     .features__titles{
         font-size: 40px;
+        padding-top: 50px;
     }
     
     .features__title {
@@ -93,7 +94,7 @@
     .features__title--bottom {
         width: 340px;
         margin: 0 auto;
-        margin-bottom: 90px;
+        margin-bottom: 55px;
     }
     
     .features__image img {
@@ -104,11 +105,18 @@
     
     .features__item {
         text-align: left;
+        margin-bottom: 24px;
     }
     
     .features__decoration {
-        top: -29px;
-        border-right: 700px solid $coffe;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width:0;
+        height:0;
+        border:52px solid transparent;
+        border-top:0;
+        border-left: 100vw solid $white;
     }
     
     .features__item-holder {
@@ -120,7 +128,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        padding-bottom: 20px;
+        padding-bottom: 0;
+        padding-right: 38px;
+        margin-top: 14px;
     }
     
     .features__image--position {

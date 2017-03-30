@@ -47,7 +47,7 @@
     font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px; 
-    
+    text-transform: uppercase;
 }
 
 .contest__input {
@@ -62,6 +62,7 @@
     padding: 15px 0;
     padding-left: 20px;
     margin-bottom: 15px;
+    resize: none;
 }
 
 
