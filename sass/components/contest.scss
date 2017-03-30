@@ -95,6 +95,63 @@
     margin-bottom: 40px;
 }
 
+/*********Стилизация чекбоксов*************/
+
+.contest__label-chekbox input:enabled,
+.contest__label-chekbox input:disabled {
+    display: none;
+}
+
+.contest__label-chekbox input:enabled + .contest__chekbox-indicator,
+.contest__label-chekbox input:disabled + .contest__chekbox-indicator
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 2px solid $milk;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.contest__label-chekbox input:checked + .contest__chekbox-indicator {
+    background: url("../../img/icon-yes.svg") no-repeat center;
+}
+
+/*******************************************/
+
+/*********Стилизация радиобатонов*************/
+
+.contest__label-radio input:enabled,
+.contest__label-radio input:disabled {
+    display: none;
+}
+
+.contest__label-radio input:enabled + .contest__radio-indicator,
+.contest__label-radio input:disabled + .contest__radio-indicator
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 2px solid $milk;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 30px;
+    background: $white;
+    div {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+.contest__label-radio input:checked + .contest__radio-indicator div {
+   background: $pink;
+}
+
+/*********************************************/
+
 .contest__user-soft {
     background: $coffe;
 }
