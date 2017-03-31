@@ -71,6 +71,7 @@
     border: 3px solid #dddfe0;
 }
 
+/*ползунок для Хрома*/
 input[type=range] {
 	-webkit-appearance: none;
 	width: 240px;
@@ -104,7 +105,31 @@ input[type=range]::-webkit-slider-thumb {
 	margin-top: -7px;
 }
 
-.none {
+/*Ползунок для лисы*/
+/* Полоса */
+
+input[type=range]::-moz-range-track {
+	height: 3px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: $black;
+}
+
+/* Бегунок*/
+
+input[type=range]::-moz-range-thumb {
+	box-shadow: 1px 1px 1px #000;
+	border: 2px solid $pink;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background: $white;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -7px;
+}
+
+.photo-editor__range-visibility {
     display: none;
 }
 
@@ -113,20 +138,29 @@ input[type=range]::-webkit-slider-thumb {
 /**************Tablet ver.**********************/
 
 @media (min-width: $tablet) {
-    .photo-editor {
+    .photo-editor { 
+        margin-bottom: 0;
+}
+    
+    .photo-editor__wrapper {
         display: flex;
-        padding: 50px 40px;
+        padding: 56px 44px;
+        box-sizing: border-box;
     }
     
     .photo-editor__picture {
         padding: 0;
+        img {
+            height: 402px;;
+        }
     }
+    
     
     .photo-editor__items {
         display: flex;
         flex-direction: column;
         padding: 0 40px;
-        margin-bottom: 75px;
+        margin-bottom: 72px;
     }
     
     .photo-editor__item {
@@ -134,15 +168,51 @@ input[type=range]::-webkit-slider-thumb {
         margin: 0;
         width: 275px;
         background-position: left;
+        background-size: 25px;
+        padding-bottom: 15px;
     }
+    .photo-editor__items-wrapper {
+        position: relative;
+    }
+    
+    .photo-editor__range {
+        position: absolute;
+        top: 18px;
+        left: 98px;
+    }
+    
+    input[type=range] {
+	-webkit-appearance: none;
+	width: 200px;
+    margin-left: 0;
+}
+    
+     .photo-editor__range-visibility {
+        display: inline-block;
+        margin-bottom: 56px;
+    }
+    
+    @-moz-document url-prefix() {
+    .photo-editor__range-visibility {
+        margin-bottom: 42px;
+    }
+}
     
     .photo-editor__buttons {
         padding: 0;
+        margin: 0;
     }
+    
+    .photo-editor__button {
+        width: 270px;
+        padding: 14px 20px;
+        border-radius: 25px;
+}
     
     .photo-editor__button-confirm {
         margin-bottom: 25px;
     }
+    
 }
 
 /***************************************************/

@@ -116,7 +116,7 @@
         height:0;
         border:52px solid transparent;
         border-top:0;
-        border-left: 100vw solid $white;
+        border-left: calc(100vw - 52px) solid $white;
     }
     
     .features__item-holder {

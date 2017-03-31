@@ -33,10 +33,16 @@
 @media (min-width: $tablet) {
     .page-footer {
         display: flex;
+        box-sizing: border-box;
         justify-content: space-between;
         align-items: center;
-        padding-top: 35px;
+        padding: 0 38px;
+        padding-top: 38px;
     }
+    
+    .page-footer__link-logo{
+    margin-bottom: 40px;
+}
 }
 
 /*******************************************/

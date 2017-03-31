@@ -127,7 +127,7 @@
 @media (min-width: $tablet) {
     .user-gallery__title {
         font-size: 50px;
-        padding-top: 80px;
+        padding-top: 70px;
         padding-bottom: 140px;
         padding-left: 175px;
         padding-right: 170px;  
@@ -148,6 +148,7 @@
     
     .user-gallery__user-post {
         width: 300px;
+        margin-bottom: 44px;
     }
     
     .user-gallery__user-foto {
@@ -166,6 +167,12 @@
         width: 100%;
     }
     
+    .user-gallery__items {
+        padding: 0 40px; 
+        padding-top: 25px;
+        
+    }
+    
     .user-gallery__user-foto--top {
         width: 100%;
         height: 500px;
@@ -177,7 +184,9 @@
     }
     
     .user-gallery__holder-top {
-        padding: 0 40px;
+        box-sizing: border-box;
+        padding: 0 72px;
+        margin-bottom: 40px;
     }
     
     .user-gallery__text-end {
@@ -196,9 +205,9 @@
 @media (min-width: $desk) {
     .user-gallery__title {
         padding-top: 170px;
-        padding-bottom: 100px;
-        padding-left: 428px;
-        padding-right: 428px;  
+        padding-bottom: 90px;
+        padding-left: 0;
+        padding-right: 0; 
         background-size: 160%;  
    }
     

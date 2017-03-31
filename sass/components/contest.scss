@@ -187,25 +187,32 @@
 }
 /********************************************/
 
+
+
 /*****************Tablet ver.****************/
 
 @media (min-width: $tablet) {
+    .contest {
+        .container {
+            width: 620px;
+        }
+    }
     .contest__title {
         font-size: 50px;
-        padding-top: 70px;
-        padding-bottom: 90px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-top: 68px;
+        padding-bottom: 80px;
+        padding-left: 95px;
+        padding-right: 95px;
         background-position: center;
     }
     
     .contest__description{
         line-height: 1.6em;
         font-size: 18px; 
-        padding-top: 90px;
+        padding-top: 94px;
         padding-bottom: 30px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 110px;
+        padding-right: 110px;
     }
     
     .contest__description-request {
@@ -215,11 +222,16 @@
     .contest__user-date-holder {
         display: flex;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 52px;
     } 
+    
+    .contest__user-date-holder :last-child {
+        margin-bottom: 0;
+    }
     
     .contest__mobile-bg {
         background: $white;
+        padding-top: 32px;
     }
     
     .contest__form-label {
@@ -228,18 +240,16 @@
     }
     
     .contest__input {
-        width: 100%;
+        width: 95%;
         margin-bottom: 10px;
     }
     
     .contest__user-date-wrapper {
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 17px;
     }
     
-    .contest__user-soft {
-        background: $white;
-    }
     
     .contest__user-soft :last-child {
         margin-bottom: 0;
@@ -247,7 +257,7 @@
     
     .contest__user-date {
         border: 2px solid $milk;
-        margin-bottom: 56px;
+        margin-bottom: 66px;
         padding: 30px 57px;
     }
     
@@ -255,6 +265,19 @@
         border: 0px solid;
         padding: 30px 0;
         order: 1;
+        margin-bottom: 0;
+    }
+    
+    .contest__user-date-contact {
+        padding: 32px 57px;
+        padding-top: 36px;
+        margin-bottom: 22px;
+    }
+    
+     .contest__user-soft {
+        background: $white;
+        padding-top: 44px;
+        padding-bottom: 44px;
     }
     
     .contest__user-date--style :last-child {
@@ -271,12 +294,23 @@
         margin-bottom: 35px;
     }
     
+    .contest__label-chekbox input:enabled + .contest__chekbox-indicator,.contest__label-chekbox input:disabled + .contest__chekbox-indicator {
+        margin-right: 18px;
+    }
+    
+    .contest__label-radio input:enabled + .contest__radio-indicator,
+    .contest__label-radio input:disabled + .contest__radio-indicator {
+        margin-right: 18px;
+    }
     .contest__form-label--margin {
         margin-bottom: 0;
     }
     
     .contest__user-achieve {
         background: $white;
+        padding-top: 44px;
+        padding-bottom: 6px;
+        margin-bottom: 58px;
     }
     
     .contest__form-legend {
@@ -284,8 +318,20 @@
         width: auto;
     }
     
+    .contest__label-radio {
+        margin-bottom: 36px;
+    }
+    
+    
     .contest__label-chekbox--margin {
         margin-bottom: 0;
+    }
+    
+    .contest__label-chekbox {
+        margin-bottom: 43px;
+    }
+    .contest__btn-wrapper {
+        padding-top: 12px;
     }
     
     .contest__btn {
@@ -294,7 +340,7 @@
     }
     .contest__reminder {
         display: inline-block;
-        margin-left: 220px;
+        margin-left: 145px;
     }
     
     .contest__input--width {

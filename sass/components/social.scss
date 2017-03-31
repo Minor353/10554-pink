@@ -25,3 +25,14 @@
 .socials__link--yt {
     background: url("../../img/icon-youtube.svg") no-repeat center;
 }
+
+
+/************Tablet ver.********************/
+
+@media (min-width: $tablet) {
+    .socials {
+    margin-bottom: 40px;
+}
+}
+
+/*******************************************/
