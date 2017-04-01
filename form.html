@@ -7,53 +7,57 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-     <header class="page-header container">
-          <nav class="main-nav  main-nav--closed  main-nav--nojs">
-              <div class="main-nav__panel clearfix">
+    <header class="page-header">
+          <nav class="main-nav  container  main-nav--closed  main-nav--nojs">
+              <div class="main-nav__panel">
               <div class="main-nav__logo">
-                  <a href="index.html">
+                 <a href="index.html">
                       <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
-                  </a>
+                 </a>
               </div>
               <button class="main-nav__toggle" type="button"></button>
               </div>
-              <div class="main-nav__wrapper">
                   <ul class="main-nav__items">
                       <li class="main-nav__item"><a class="main-nav__link" href="index.html">Главная</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
                   </ul>
-              </div>
           </nav>
       </header>
       
-      <section class="contest  container">
+      <section class="contest">
           <div class="contest__title">
               Конкурс на самое безбашенное путешествие с Пинк
           </div>
           <div class="contest__description">
-              Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! 
+              Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! <span class="contest__description-request">Пожалуйста, заполните форму ниже:</span> 
           </div>
           
           <form class="contest__form" action="https://echo.htmlacademy.ru/" method="post">
-            
-             <fieldset class="contest__user-date">
-                  <label class="contest__form-label">Фамилия:
-                      <input class="contest__input" type="text" name="second-name" placeholder="Укажите фамилию*" id="second-name" required>
-                  </label>
+            <div class="contest__user-date-wrapper">
+             <fieldset class="contest__user-date  contest__form-container  contest__user-date--style">
+                 <div class="contest__user-date-holder">
+                      <label class="contest__form-label" for="second-name">Фамилия:</label>
+                      <input class="contest__input" type="text" name="second-name" placeholder="Укажите фамилию *" id="second-name" required>
+                 </div> 
+                  
+                 <div class="contest__user-date-holder">
+                      <label class="contest__form-label" for="first-name">Имя:</label>
+                      <input class="contest__input" type="text" name="first-name" placeholder="Введите ваше имя *" id="first-name" required>
+                 </div>
               
-                  <lable class="contest__form-label">Имя:
-                      <input class="contest__input" type="text" name="first-name" placeholder="Введите ваше имя*" id="first-name" required>
-                  </lable>
-              
-                  <label class="contest__form-label">Отчество:
+                 <div class="contest__user-date-holder">
+                      <label class="contest__form-label" for="middle-name">Отчество:</label>
                       <input class="contest__input" type="text" name="middle-name" placeholder="Ну и отчество тоже" id="middle-name">
-                  </label>
+                 </div>
+                 
               </fieldset>
                 
-              <fieldset class="contest__user-date  contest__user-achieve">
-                    <p class="contest__form-legend">Ваши безбашенные<br> достижения в путешествии</p>
+                <div class="contest__mobile-bg  contest__mobile-bg-achive">
+              <fieldset class="contest__user-date  contest__form-container  contest__user-achieve">
+                  <legend class="contest__form-legend">Ваши безбашенные достижения в путешествии</legend>
+                  <div class="contest__user-achieve-wrapper">
                   <label class="contest__label-chekbox">
                       <input class="contest__chekbox" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" checked>
                       <span class="contest__chekbox-indicator"></span>
@@ -84,56 +88,66 @@
                       Удержал башню
                   </label>
                   
-                  <label class="contest__label-chekbox">
+                  <label class="contest__label-chekbox  contest__label-chekbox--margin">
                       <input class="contest__chekbox" type="checkbox" name="defeat-of-hotel" id="defeat-of-hotel">
                       <span class="contest__chekbox-indicator"></span>
                       Разгромил отель
                   </label>
+                  </div>
               </fieldset>
-              
-              <fieldset class="contest__user-date">
-                  <label class="contest__form-label">Номер телефона
-                      <input class="contest__input" type="tel" name="tel-num" id="tel-num" placeholder="Номер, пожалуйста">
-                  </label>
+                </div>
+                
+              <fieldset class="contest__user-date  contest__form-container  contest__user-date-contact">
+                 <legend class="contest__form-legend">Контактная информация</legend>
+                    <div class="contest__user-date-contact-wrapper">
+                     <div class="contest__form-holder">
+                          <label class="contest__form-label  contest__form-label--position" for="tel-num">Номер телефона</label>
+                          <input class="contest__input" type="tel" name="tel-num" id="tel-num" placeholder="Номер, пожалуйста">
+                    </div>
                   
-                  <label class="contest__form-label">Адрес почты
-                      <input class="contest__input" type="email" name="email-address" id="email" placeholder="Введите почту*" required>
-                  </label>
+                    <div class="contest__form-holder">
+                          <label class="contest__form-label  contest__form-label--position contest__form-label--margin" for="email">Адрес почты</label>
+                          <input class="contest__input" type="email" name="email-address" id="email" placeholder="Введите почту*" required>
+                    </div>
+                  </div>
               </fieldset>
               
-              <fieldset class="contest__user-date contest__user-soft">
-                  <p class="contest__form-legend">С каким приложением<br> путешествовали?</p>
+              <div class="contest__mobile-bg  contest__mobile-bg-soft">
+              <fieldset class="contest__user-date  contest__form-container  contest__user-soft">
+                  <legend class="contest__form-legend">С каким приложением путешествовали?</legend>
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="IOS">
-                      <span class="contest__radio-indicator"></span>
+                      <div class="contest__radio-indicator"><div></div></div>
                       Pink для IOS
                   </label>
                   
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="Android">
-                      <span class="contest__radio-indicator"></span>
+                      <div class="contest__radio-indicator"><div></div></div>
                       Pink для Android
                   </label>
                   
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="Windows">
-                      <span class="contest__radio-indicator"></span>
+                      <div class="contest__radio-indicator"><div></div></div>
                       Windows Phone
                   </label>
               </fieldset>
-              
-              <fieldset class="contest__user-date">
-                  <p class="contest__form-legend">Опишите свои эмоции</p>
-                  <textarea class="contest__input" name="recall" id="recall" cols="10" rows="6" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                </div>
+              </div>
+              <fieldset class="contest__user-date  contest__form-container  contest__user-date-review">
+                  <legend class="contest__form-legend">Опишите свои эмоции</legend>
+                  <textarea class="contest__input  contest__input--width" name="recall" id="recall" cols="10" rows="6"  placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
               </fieldset>
-              
+              <div class="contest__btn-wrapper  contest__form-container">
               <button class="contest__btn" type="submit">Отправить форму</button>
+              <div class="contest__reminder">* -Обязательные <span class="contest__reminder--visibility">для заполнения</span> поля</div>
+              </div>
           </form>
-          <p class="contest__reminder">* -Обязательные поля</p>
+          
       </section>
       
       <footer class="page-footer  container">
-          <div class="page-footer__wrapper">
               <div class="page-footer__link-logo">
                   <a href="index.html"><img class="page-footer__logo" src="img/Pink-footer.png" alt="Pink logo"></a>
               </div>
@@ -147,7 +161,6 @@
               <div class="page-footer__copyright">
                   Разработано <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
               </div>
-          </div>
     </footer>
 </body>
 </html>

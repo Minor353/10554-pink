@@ -1,33 +1,27 @@
 
 /*************Mobile ver.****************/
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.container {
-    width: 320px;
-    margin: 0 auto;
-}
 
 .page-header {
     font-family: OpenSansBold, Verdana, sans-serif;
     text-transform: uppercase;
     background: #283645;
+    .container {
+        width: 100%;
+    }
 }
 
 .main-nav__panel {
+    display: flex;
+    justify-content: space-between;
     padding: 20px; 
-    border-bottom: 1px groove #000000;  
+    border-bottom: 1px groove $black;  
 }
 
-.main-nav__logo {
-    float: left;
+.main-nav__items {
+    width: 100%;
 }
 
 .main-nav__toggle {
-    float: right;
     background: url(../../img/icon-menu-cross.svg) no-repeat;
     width: 28px;
     height: 28px;
@@ -48,11 +42,76 @@
     text-decoration: none;
     line-height: 1.7em;
     font-size: 18px;
-    color: #ffffff;
-    border-bottom: 1px groove #000000;
-    padding: 15px 0;
+    color: $white;
+    border-top: 1px solid #485461;
+    border-bottom: 1px solid $black;
+    padding: 16px 0;
     display: block;
 }
 
-
 /****************************************/
+
+
+/*******************Tablet ver.*******************************/
+
+@media (min-width: $tablet) {
+   .main-nav__panel {
+        padding: 40px 65px;  
+    }    
+}
+
+/*************************************************************/
+
+/*******************Desktop ver.******************************/
+
+@media (min-width: $desk) {
+    body {
+        position: relative;
+    }
+    
+    .page-header {
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(40, 54, 69, 0.5);
+        width: 100%;
+        .container {   
+            width: 960px;
+       }
+    }
+    
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .main-nav__items {
+        width: 66%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main-nav__panel {
+        padding: 0;  
+        border: 0;
+    }
+    
+    .main-nav__toggle {
+        display: none;
+    }
+    
+   
+    
+    .main-nav__link {
+        font-family: OpenSans, Verdana, sans-serif;
+        line-height: 1em;
+        border-bottom: 0px solid;
+        text-transform: none;
+        padding: 44px 0;
+    }
+}
+
+/*************************************************************/

@@ -5,6 +5,8 @@
 
 @import "util/normalize.scss";
 
+@import "util/variable.scss";
+
 /*****************************/
 
 /*Общие блоки*/
@@ -14,6 +16,8 @@
 
 @import "components/social.scss";
 
+@import "general/container.scss";
+
 /***************************************************/
 
 /*Блоки index*/
@@ -21,6 +25,8 @@
 @import "components/download-page.scss";
 
 @import "components/features.scss";
+
+@import "components/research.scss";
 
 @import "components/reviews.scss";
 

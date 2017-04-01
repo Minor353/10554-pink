@@ -1,8 +1,8 @@
 /**************Mobile ver.*******************/
 
 .page-footer__link-logo{
-   text-align: center;
-    margin-bottom: 35px;
+    text-align: center;
+    margin-bottom: 34px;
 }
 
 
@@ -22,4 +22,36 @@
     height: 35px;
     background: url("../../img/htmlacademy.svg") no-repeat center;
 }
+
+.page-footer--index {
+    display: none;
+}
 /********************************************/
+
+/************Tablet ver.********************/
+
+@media (min-width: $tablet) {
+    .page-footer {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 38px;
+        padding-top: 100px;
+    }
+    
+    .page-footer__link-logo{
+    margin-bottom: 40px;
+}
+}
+
+/*******************************************/
+
+/*******************Desktop ver.******************************/
+
+@media (min-width: $desk) {
+     .page-footer {
+        padding: 0 10px;
+        padding-top: 28px;
+    }
+}

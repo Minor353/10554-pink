@@ -7,43 +7,47 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <header class="page-header container">
-          <nav class="main-nav  main-nav--closed  main-nav--nojs">
-              <div class="main-nav__panel clearfix">
+      <header class="page-header">
+          <nav class="main-nav  container  main-nav--closed  main-nav--nojs">
+              <div class="main-nav__panel">
               <div class="main-nav__logo">
                   <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
               </div>
               <button class="main-nav__toggle" type="button"></button>
               </div>
-              <div class="main-nav__wrapper">
                   <ul class="main-nav__items">
                       <li class="main-nav__item"><a class="main-nav__link" href="">Главная</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
                   </ul>
-              </div>
           </nav>
       </header>
       
-      <section class="download-page container">
+      <section class="download-page">
           <div class="download-page__background-image">
+             <div class="download-page__position-holder  container">
               <img class="download-page__image" src="img/iphone-hand-mobile@1x.png" alt="Pink image">
+          
+          <div class="download-page__holder">
+              <div class="download-page__title">Взгляните на жизнь иначе!</div>
+              <a href="#" class="download-page__link  download-page__link--btn">Скачать приложение</a>
+              <div class="download-page__link-holder">
+                  <a href="#" class="download-page__link  download-page__link--apple">Apple</a>
+                  <a href="#" class="download-page__link  download-page__link--android">Android</a>
+                  <a href="#" class="download-page__link download-page__link--win">Win</a>
+              </div>
+              <div class="download-page__description">
+                  Дотупно для iPhone, iPad, Android,
+                  Windows Phone, OS X, Windows 8
+              </div>
           </div>
-          <a href="#" class="download-page__link  download-page__link--btn">Скачать приложение</a>
-          <div class="download-page__link-holder">
-          <a href="#" class="download-page__link  download-page__link--apple">Apple</a>
-          <a href="#" class="download-page__link  download-page__link--android">Android</a>
-          <a href="#" class="download-page__link download-page__link--win">Win</a>
-          </div>
-          <div class="download-page__description">
-              Дотупно для iPhone, iPad, Android,
-              Windows Phone, OS X, Windows 8
+              </div>
           </div>
       </section>
       
-      <section class="features container">
-          <div class="features__titles">
+      <section class="features">
+          <div class="features__titles  container">
               <div class="features__title">
                   Устали от серости мегаполиса?
               </div>
@@ -53,33 +57,62 @@
           </div>
           
           <div class="features__items">
-          <div class="features__decoration"></div>
-          <div class="features__item">
-              <b class="features__item-caption">Поднимает настроение</b>
-              <p class="features__item-description">
-                  Приложение позволит вам победить
-                  осеннюю хандру и депресию
-                  буквально в несколько кликов!
-              </p>
+              <div class="features__decoration"></div>
+              <div class="features__items-holder  container">
+                  <div class="features__item">
+                     <div class="features__image  features__image--display">
+                         <img src="img/pink-index-mobile_03.png" alt="Pink image">
+                     </div>
+                     <div class="features__item-holder">
+                         <b class="features__item-caption">Поднимает настроение</b>
+                         <p class="features__item-description">
+                              Приложение позволит вам победить
+                              осеннюю хандру и депрессию
+                              буквально в несколько кликов!
+                         </p>
+                     </div> 
+                  </div>
+                  <div class="features__item">
+                      <div class="features__image  features__image--display">
+                          <img src="img/pink-index-mobile_03.png" alt="Pink image">
+                      </div>
+                      <div class="features__item-holder  features__item-holder--margin">
+                          <b class="features__item-caption">Меняет мир вокруг</b>
+                          <p class="features__item-description">
+                              Сделайте снимок и украсьте его
+                              смайликом или текстовой подписью,
+                              чтобы усилить эффект
+                          </p>
+                     </div>
+                  </div>
+                  <div class="features__item  features__item--invert">
+                      <div class="features__image  features__image--position">
+                          <img src="img/pink-index-mobile_03.png" alt="Pink image">
+                      </div>
+                      <div class="features__item-holder">
+                          <b class="features__item-caption">Заводит новых друзей</b>
+                          <p class="features__item-description">
+                              Ставьте лайки, комментируйте, делитесь
+                              фотографиями с друзьями и заводите 
+                              новых
+                          </p>
+                     </div> 
+                  </div>
+              </div>
           </div>
-          <div class="features__item">
-              <b class="features__item-caption">Меняет мир вокруг</b>
-              <p class="features__item-description">
-                  Сделайте снимок и украсьте его
-                  смайликом или текстовой подписью,
-                  чтобы усилить эффект
-             </p>
+      </section>
+      
+      <section class="research">
+         <div class="research__holder  container">
+          <div class="research__timer">
+              <img src="img/24.png" alt="timer">
           </div>
-          <div class="features__item">
-              <b class="features__item-caption">Заводи новых друзей</b>
-              <p class="features__item-description">
-                  Ставьте лайки, комментируйте, делитесь
-                  фотографиями сс друзьями и заводите 
-                  новых
-              </p>
-          </div>
-          <div class="features__image">
-              <img src="img/pink-index-mobile_03.png" alt="Pink image">
+          <div class="research__content">
+              <div class="research__title">Эффект на 24 часа!</div>
+              <div class="research__content-text">
+                  Британские ученые провели иследования и доказали, что положительный эффект от использования приложения длится целые сутки!
+              </div>
+              <a class="research__link" href="#">Узнать больше об иследованиях</a>
           </div>
           </div>
       </section>
@@ -89,27 +122,42 @@
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-1" checked>
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-2">
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-3">
-              <ul class="reviews__items    clearfix">
+              <ul class="reviews__items">
                   <li class="reviews__item  slider__item">
-                      <b class="reviews__item-title">
-                          Николай Петров
-                      </b>
+                     <div class="reviews__quotes"></div>
+                     <div class="reviews__btn-prev"></div> <div class="reviews__btn-next"></div>
+                      <div class="reviews__item-holder">
+                          <b class="reviews__item-title">
+                              Николай Петров
+                          </b>
+                          <div class="reviews__item-relation">25 лет, водитель трамвая</div>
+                      </div>
                       <p class="reviews__item-description">
                           «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
                       </p>
                   </li>
-                   <li class="reviews__item  slider__item">
-                      <b class="reviews__item-title">
-                        Юрий Шатунов
-                      </b>
+                   <li class="reviews__item  slider__item  reviews__item--none">
+                      <div class="reviews__quotes"></div>
+                      <div class="reviews__btn-prev"></div> <div class="reviews__btn-next"></div>
+                      <div class="reviews__item-holder">
+                          <b class="reviews__item-title">
+                            Юрий Шатунов
+                          </b>
+                          <div class="reviews__item-relation">43 года, певец</div>
+                      </div>
                       <p class="reviews__item-description">
                           «Я думал, круче чем я, ничего нет! Увидев это приложение, я понял, что ошибался! Ставлю 5+ Буду советовать всем своим друзьям.»
                       </p>
                   </li>
-                   <li class="reviews__item  slider__item">
-                      <b class="reviews__item-title">
-                          Юрий Петров
-                      </b>
+                   <li class="reviews__item  slider__item  reviews__item--none">
+                      <div class="reviews__quotes"></div>
+                      <div class="reviews__btn-prev"></div> <div class="reviews__btn-next"></div>
+                      <div class="reviews__item-holder">
+                          <b class="reviews__item-title">
+                              Юрий Петров
+                          </b>
+                          <div class="reviews__item-relation">34 года, домохозяйка</div>
+                      </div>
                       <p class="reviews__item-description">
                           «Это приложение  позволило по-новому взглянуть на привычные серые вещи! Pink, это то, в чем нуждался мир! Это лучше чем зефир!»
                       </p>
@@ -123,13 +171,27 @@
           </div>
       </section>
       
-      <section class="price container">
+      <section class="price">
+         <div class="price__holder  container">
           <div class="price__decoration"></div>
           <div class="price__wrapper  slider">
               <input class="price__input" type="radio"  name="price" id="price-input-1">
               <input class="price__input" type="radio"  name="price" id="price-input-2" checked>
               <input class="price__input" type="radio"  name="price" id="price-input-3">
-              <ul class="price__items clearfix">
+              <ul class="price__items">
+                   <li class="price__item  price__item-hidden">
+                    <div class="price__title-hidden"></div>
+                    <div class="price__access  price__access--show">
+                          Розовый фильтр
+                    </div>
+                    <div class="price__access  price__access--show">
+                          Самйлики
+                    </div>
+                    <div class="price__access  price__access--show">
+                          Комментарии
+                    </div>
+                  </li>
+                  
                   <li class="price__item">
                     <div class="price__title">
                         <div class="price__item-title">База</div>
@@ -185,6 +247,7 @@
                   <label class="slider__toggle" for="price-input-3"></label>
               </div>
           </div>
+          </div>
      </section>
      
      <section class="contacts container">
@@ -193,22 +256,40 @@
             <div class="contacts__title">
                 Остались вопросы? Свяжитесь с нами!
             </div>
-            <div class="contacts__item">
+            <div class="contacts__items-holder">
+            <div class="contacts__item  contacts__tell">
                 <b class="contacts__item-title">Звоните:</b><br>
-                <a class="contacts__item-tel  contacts__item--style" href="tel:+78125556666">+7(812)555-66-66</a>
+                <a class="contacts__item-tel  contacts__item--style" href="tel:+78125556666">+7(812) 555-66-66</a>
             </div>
-            <div class="contacts__item">
+            <div class="contacts__item  contacts__email">
                 <b class="contacts__item-title">Пишите:</b><br>
                 <a class="contacts__item-email  contacts__item--style" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
             </div>
-            <div class="contacts__item">
+            <div class="contacts__item  contacts__addres  contacts__item--width">
                 <b class="contacts__item-title">Приезжайте в гости:</b>
                 <a class="contacts__item-address  contacts__item--style" href="#">ул.Большая Конюшенна, 19/8</a>
             </div>
          </div> 
+       </div>
          <div class="contacts__map">
              <img src="img/mobile-map.png" alt="Карта проезда">
          </div>
      </section>
+     
+     <footer class="page-footer page-footer--index  container">
+              <div class="page-footer__link-logo">
+                  <a href="index.html"><img class="page-footer__logo" src="img/Pink-footer.png" alt="Pink logo"></a>
+              </div>
+              
+              <div class="socials">
+                  <a class="socials__link socials__link--tw" href="#">twitter</a>
+                  <a class="socials__link socials__link--fb" href="#">facebook</a>
+                  <a class="socials__link socials__link--yt" href="#">youtube</a>  
+              </div>
+              
+              <div class="page-footer__copyright">
+                  Разработано <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+              </div>
+    </footer>
   </body>
 </html>

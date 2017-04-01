@@ -1,0 +1,102 @@
+/*******************Mobile ver.*******************************/
+
+.research {
+    display: none;
+}
+
+/*************************************************************/
+
+/**********************Tablet ver.****************************/
+
+@media (min-width: $tablet) {
+    .research {
+        display: block;
+    }
+    
+    .research__holder {
+        display: flex;
+        padding-top: 56px;
+        padding-bottom: 40px;
+    }
+    
+    .research__timer {
+        margin-left: 40px;
+        margin-right: 75px;
+    }
+    
+    .research__content {
+        width: 295px;
+        margin-top: 40px;
+    }
+    
+    .research__title {
+        font-family: OpenSansBold, Verdana, sans-serif;
+        line-height: 1.2em;
+        font-size: 30px;
+        width: 170px;
+        margin-bottom: 10px;
+    }
+    
+    .research__content-text {
+        font-family: OpenSans, Verdana, sans-serif;
+        line-height: 1.7em;
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+    
+    .research__link {
+        font-family: OpenSans, Verdana, sans-serif;
+        line-height: 1.7em;
+        font-size: 14px;
+        color: #d22856;
+    }
+}
+
+/*************************************************************/
+
+/****************Desktop ver.***********************************/
+
+@media (min-width: $desk) {
+    .research {
+        background: $coffe;
+    }
+    
+    .research__holder {
+        display: flex;
+        padding-top: 30px;
+    }
+    
+    .research__timer {
+        margin-right: 70px;
+        margin-left: 5px;
+        img {
+            height: 345px;
+        }
+    }
+    
+    .research__content {
+        width: auto;
+        margin-top: 80px;
+    }
+    
+    .research__title {
+        line-height: 1em;
+        margin-bottom: 15px;
+        width: auto;
+        margin-bottom: 26px;
+    }
+    
+    .research__content-text {
+        line-height: 1.6em;
+        font-size: 18px;
+        margin-bottom: 34px;
+        padding-right: 36px;
+    }
+    
+    .research__link {
+        line-height: 1.6em;
+        font-size: 18px;
+    }
+}
+
+/***************************************************************/

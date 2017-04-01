@@ -1,6 +1,6 @@
 /****************Mibile ver.***********************/
 .photo-editor {
-    background: #f2f2f2; 
+    background: $coffe; 
     margin-bottom: 40px;
 }
 
@@ -9,9 +9,6 @@
     padding-top: 20px;
 }
 
-.photo-editor__wrapper{
-    border-bottom: 1px solid #dddfe0;
-}
 
 .photo-editor__items {
     padding: 0 50px;
@@ -46,7 +43,8 @@
 
 
 .photo-editor__buttons {
-    padding: 40px 0;
+    padding: 66px 0;
+    padding-bottom: 44px;
 }
 
 .photo-editor__button {
@@ -55,15 +53,251 @@
     font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 1em;
     font-size: 18px;
-    color: #d22856;
+    color: $pink;
     padding: 16px 20px;
-    border: 3px solid #d22856;
+    border: 3px solid $pink;
     border-radius: 25px;
     margin: 0 auto;
+    background: $coffe;
 }
 
 .photo-editor__button-confirm{
     margin-bottom: 12px;
 }
 
+
+.photo-editor__button-cancel {
+    color: #dddfe0;
+    border: 3px solid #dddfe0;
+}
+
+/*ползунок для Хрома*/
+input[type=range] {
+	-webkit-appearance: none;
+	width: 240px;
+    margin-left: 40px;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+/* Полоса */
+
+input[type=range]::-webkit-slider-runnable-track {
+	height: 3px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: $black;
+}
+
+/* Бегунок */
+
+input[type=range]::-webkit-slider-thumb {
+	box-shadow: 1px 1px 1px #000;
+	border: 2px solid $pink;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background: $white;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -7px;
+}
+
+/*Ползунок для лисы*/
+/* Полоса */
+
+input[type=range]::-moz-range-track {
+	height: 3px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: $black;
+}
+
+/* Бегунок*/
+
+input[type=range]::-moz-range-thumb {
+	box-shadow: 1px 1px 1px #000;
+	border: 2px solid $pink;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background: $white;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -7px;
+}
+
+.photo-editor__range-visibility {
+    display: none;
+}
+
 /***************************************************/
+
+/**************Tablet ver.**********************/
+
+@media (min-width: $tablet) {
+    .photo-editor { 
+        margin-bottom: 0;
+}
+    
+    .photo-editor__wrapper {
+        display: flex;
+        padding: 56px 44px;
+        box-sizing: border-box;
+    }
+    
+    .photo-editor__picture {
+        padding: 0;
+        img {
+            height: 402px;;
+        }
+    }
+    
+    
+    .photo-editor__items {
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+        margin-bottom: 72px;
+    }
+    
+    .photo-editor__item {
+        border-bottom: 2px solid #dddfe0;
+        margin: 0;
+        width: 275px;
+        background-position: left;
+        background-size: 25px;
+        padding-bottom: 15px;
+    }
+    .photo-editor__items-wrapper {
+        position: relative;
+    }
+    
+    .photo-editor__range {
+        position: absolute;
+        top: 18px;
+        left: 98px;
+    }
+    
+    input[type=range] {
+	-webkit-appearance: none;
+	width: 200px;
+    margin-left: 0;
+}
+    
+     .photo-editor__range-visibility {
+        display: inline-block;
+        margin-bottom: 56px;
+    }
+    
+    @-moz-document url-prefix() {
+    .photo-editor__range-visibility {
+        margin-bottom: 42px;
+    }
+}
+    
+    .photo-editor__buttons {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .photo-editor__button {
+        width: 270px;
+        padding: 14px 20px;
+        border-radius: 25px;
+}
+    
+    .photo-editor__button-confirm {
+        margin-bottom: 25px;
+    }
+    
+}
+
+/***************************************************/
+
+/*******************Desktop ver.******************************/
+
+@media (min-width: $desk) {
+    .photo-editor {
+        box-sizing: border-box;
+        padding-left: 0;
+    }
+    
+    .photo-editor__range {
+        top: 18px;
+        left: 104px;
+    }
+    
+    /*ползунок для Хрома*/
+    input[type=range] {
+	    -webkit-appearance: none;
+	    width: 288px;
+        margin-left: 40px;
+    }
+
+    
+    /* Полоса */
+
+    input[type=range]::-webkit-slider-runnable-track {
+	    height: 2px;
+    }
+    /*********************************/
+    
+    /*Ползунок для лисы*/
+    /* Полоса */
+
+    input[type=range]::-moz-range-track {
+    	height: 2px;
+    }
+
+    /*******************************************/
+    
+     
+    
+    .photo-editor__wrapper {
+         justify-content: space-around;
+    }
+    
+    .photo-editor__items {
+        padding: 0;
+        margin-bottom: 147px;
+    }
+    
+    .photo-editor__item {
+        border-bottom: 2px solid #dddfe0;
+        margin: 0;
+        margin-left: 50px;
+        width: 410px;
+        background-position: left;
+        background-size: 46px;
+    }
+    
+    .photo-editor__item--contrast {
+         background-size: 34px;
+    }
+    
+
+    
+    .photo-editor__buttons {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .photo-editor__button {
+        width: 182px;
+        padding-top: 15px;
+        padding-bottom: 17px;
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+    
+    .photo-editor__button-confirm {
+        margin-bottom: 0;
+        margin-left: 50px;
+        margin-right: 45px;
+    }
+}
+
+/************************************************************/

@@ -2,20 +2,25 @@
 
 .download-page {
     background: #1d2631;
+    position: relative;
 }
 
 .download-page__background-image {
     position: relative; 
-    height: 395px;
     background: url(../../img/bg-back-mobile@1x.jpg) no-repeat bottom;  
+    background-position: 50% -76px;
+    background-size: 710px;
 }
 
 .download-page__image {
-    position: absolute;
-    bottom: 0;
+   padding-top: 108px;
 }
 .download-page__link{
     text-decoration: none;
+}
+
+.download-page__title {
+    display: none;
 }
 
 .download-page__link--btn {
@@ -23,41 +28,42 @@
     font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 1em;
     font-size: 18px;
-    color: #ffffff;
+    color: $white;
     text-align: center;
-    border: 3px solid #ffffff;
-    border-radius: 25px;
+    border: 3px solid $white;
+    border-radius: 30px;
     width: 275px;
-    padding: 15px 0;
+    padding: 14px 0;
     margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin-top: 27px;
+    margin-bottom: 35px;
 }
 
 .download-page__link-holder {
-    padding: 0 50px;
+    display: flex;
+    width: 220px;
+    margin: 0 auto;
+    padding: 0 6px;
+    box-sizing: border-box;
 }
 
 .download-page__link--apple {
-    display: inline-block;
     font-size: 0;
     background: url(../../img/logo-apple.svg) no-repeat center;
     height: 56px;
     width: 50px;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 
 .download-page__link--android {
-    display: inline-block;
     font-size: 0;
     background: url(../../img/logo-android.svg) no-repeat bottom;
     height: 56px;
     width: 50px;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 
 .download-page__link--win {
-    display: inline-block;
     font-size: 0;
     background: url(../../img/logo-microsoft.svg) no-repeat bottom;
     height: 56px;
@@ -69,8 +75,108 @@
     line-height: 1.7em;
     font-size: 14px;
     font-weight: lighter;
-    color: #c3c5c8;
-    padding: 35px 40px;
+    color: $gray;
+    padding: 35px 39px;
+    padding-top: 24px;
     text-align: center;
 }
 /********************************************/
+
+/*******************tablet ver.**************************/
+
+@media (min-width: $tablet) {
+    .download-page__background-image {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .download-page__image {
+        display: block;
+        margin-left: auto;
+        height: 545px;
+        padding: 0;
+        padding-top: 70px;
+    }
+    
+    .download-page__title {
+        display: block;
+        width: 195px;
+        margin: 0 auto;
+        font-family: OpenSansLight, Verdana, sans-serif;
+        line-height: 1.2em;
+        font-size: 40px;
+        color: $gray;
+        text-align: center;
+    }
+    
+    .download-page__holder {
+        width: 295px;
+        position: absolute;
+        top: 95px;
+        left: 76px;
+    }
+    
+    .download-page__link--btn {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .download-page__description {
+        padding: 35px 0;
+        font-family: OpenSansLight, Verdana, sans-serif;
+        line-height: 1.3em;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/********************************************************/
+
+/*******************Desktop ver.******************************/
+
+@media (min-width: $desk) {
+
+    .download-page__background-image {
+        background-size: 160%;
+        padding-top: 106px;
+    }
+    
+    .download-page__image {
+        position: inherit;
+        height: 645px;
+        padding-top: 98px;
+    }
+    
+    .download-page__holder {
+        position: inherit;
+        width: 300px;
+        margin-bottom: 80px;
+    }
+    
+    .download-page__position-holder{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 100%;
+    }
+    .download-page__title {
+        font-size: 50px;
+        width: 230px;
+    }
+    
+    .download-page__link--btn {
+        margin-top: 55px;
+        margin-bottom: 60px;
+        font-size: 21px;
+    }
+    
+    .download-page__description {
+        line-height: 1.3em;
+        font-size: 18px;
+        padding: 58px 0;
+        padding-bottom: 44px;
+    }
+}
+
+/*************************************************************/
