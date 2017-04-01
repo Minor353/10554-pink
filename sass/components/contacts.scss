@@ -71,3 +71,37 @@
 }
 
 /********************************************/
+
+/*******************Descktop ver.**************************/
+
+@media (min-width: $desk) {
+    .contacts__title {
+        width: 600px;
+        font-size: 50px;
+    }
+    
+    .contacts__wraper {
+        padding-top: 89px;
+    }
+    
+    .contacts__item {
+        margin-top: 58px;
+    }
+    
+    .contacts__item--style {
+        display: block;
+        margin-top: 20px;
+    }
+    
+    .contacts__tell {
+        order: 1;
+    }
+    
+    .contacts__addres {
+        order: 2;
+    }
+    
+    .contacts__email {
+        order: 3;
+    }
+}

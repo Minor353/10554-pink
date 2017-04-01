@@ -97,9 +97,10 @@
         margin-bottom: 55px;
     }
     
-    .features__image img {
-        width: 275px;
-        background-size: cover; 
+    .features__image {
+        img {
+            width: 275px;
+            background-size: cover; }
     }
 
     
@@ -114,9 +115,10 @@
         top: 0px;
         width:0;
         height:0;
-        border:52px solid transparent;
-        border-top:0;
-        border-left: calc(100vw - 52px) solid $white;
+        border: 52px solid transparent;
+        border-top: 0 solid $white;
+        border-right: 0 solid $white ;
+        border-left: 100vw solid $white;
     }
     
     .features__item-holder {
@@ -154,7 +156,7 @@
     
     .features__title--bottom {
         width: 440px;
-        margin-bottom: 160px;
+        margin-bottom: 10px;
     }
     
     .features__items {
@@ -165,9 +167,25 @@
         text-align: center;
     }
     
+    .features__image {
+        margin-bottom: 50px;
+        img {
+            width: 180px;
+            height: 300px;
+            
+             }
+    }
+    
     .features__decoration {
-        border: 65px solid transparent;
-        border-right: 960px solid $coffe;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 0;
+        height:0;
+        border:85px solid transparent;
+        border-top: 70px solid $white;
+        border-right: 0px solid $white ;
+        border-left: 100vw  solid $white;
     }
     
     .features__item-caption {
@@ -181,7 +199,7 @@
     }
     
     .features__image--display {
-       display: block;
+       display: inline-block;
     }
     
     .features__image--position {
@@ -191,7 +209,21 @@
     
     .features__item--invert {
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
         padding: 0;
+        .features__image {
+            margin-bottom: 56px;
+        }
+        .features__item-caption {
+            display: block;
+            padding: 0 20px;
+        }
+        
+        .features__item-description {
+            box-sizing: border-box;
+            padding: 0 20px;
+        }
     }
     
      .features__items-holder {
@@ -201,6 +233,15 @@
         justify-content: space-around; 
         align-items: flex-start;
         padding-bottom: 20px;
+        padding-right: 20px;; 
+    }
+    
+    .features__item-holder {
+        width: 280px;
+    }
+    
+    .features__item-holder--margin {
+        margin: 0 24px;
     }
     
 }

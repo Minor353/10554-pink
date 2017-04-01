@@ -222,22 +222,63 @@ input[type=range]::-moz-range-thumb {
 @media (min-width: $desk) {
     .photo-editor {
         box-sizing: border-box;
-        padding-left: 80px;
+        padding-left: 0;
     }
+    
+    .photo-editor__range {
+        top: 18px;
+        left: 104px;
+    }
+    
+    /*ползунок для Хрома*/
+    input[type=range] {
+	    -webkit-appearance: none;
+	    width: 288px;
+        margin-left: 40px;
+    }
+
+    
+    /* Полоса */
+
+    input[type=range]::-webkit-slider-runnable-track {
+	    height: 2px;
+    }
+    /*********************************/
+    
+    /*Ползунок для лисы*/
+    /* Полоса */
+
+    input[type=range]::-moz-range-track {
+    	height: 2px;
+    }
+
+    /*******************************************/
+    
+     
+    
     .photo-editor__wrapper {
-        margin-left: 90px;
+         justify-content: space-around;
     }
     
     .photo-editor__items {
         padding: 0;
+        margin-bottom: 147px;
     }
     
     .photo-editor__item {
         border-bottom: 2px solid #dddfe0;
         margin: 0;
+        margin-left: 50px;
         width: 410px;
         background-position: left;
+        background-size: 46px;
     }
+    
+    .photo-editor__item--contrast {
+         background-size: 34px;
+    }
+    
+
     
     .photo-editor__buttons {
         display: flex;
@@ -248,8 +289,14 @@ input[type=range]::-moz-range-thumb {
         width: 182px;
         padding-top: 15px;
         padding-bottom: 17px;
-        padding-left: 45px;
-        padding-right: 30px;
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+    
+    .photo-editor__button-confirm {
+        margin-bottom: 0;
+        margin-left: 50px;
+        margin-right: 45px;
     }
 }
 

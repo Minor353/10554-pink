@@ -210,9 +210,9 @@
 @media (min-width: $desk) {
     .user-gallery__title {
         padding-top: 170px;
-        padding-bottom: 90px;
-        padding-left: 0;
-        padding-right: 0; 
+        padding-bottom: 104px;
+        padding-left: 280px;
+        padding-right: 280px; 
         background-size: 160%;  
    }
     
@@ -223,14 +223,19 @@
     
     .user-gallery__user-top {
         right: 130px;
+        margin-bottom: 20px;
     }
     
     .user-gallery__holder-top {
         padding: 0 120px;
     }
     
+    .user-gallery__user-post {
+        margin-bottom: 39px;
+    }
+    
     .user-gallery__wrapper {
-        padding: 0 120px;
+        padding: 0 10px;
     }
     
     .user-gallery__user-foto {
@@ -241,6 +246,10 @@
     .user-gallery__user-foto--top {
         width: 100%;
         height: 500px;
+    }
+    
+    .user-gallery__text-end {
+        padding-top: 42px;
     }
 }
 

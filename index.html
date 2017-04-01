@@ -76,7 +76,7 @@
                       <div class="features__image  features__image--display">
                           <img src="img/pink-index-mobile_03.png" alt="Pink image">
                       </div>
-                      <div class="features__item-holder">
+                      <div class="features__item-holder  features__item-holder--margin">
                           <b class="features__item-caption">Меняет мир вокруг</b>
                           <p class="features__item-description">
                               Сделайте снимок и украсьте его
@@ -122,8 +122,10 @@
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-1" checked>
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-2">
               <input class="slider__input" type="radio"  name="reviews" id="reviews-input-3">
-              <ul class="reviews__items    clearfix">
+              <ul class="reviews__items">
                   <li class="reviews__item  slider__item">
+                     <div class="reviews__quotes"></div>
+                     <div class="reviews__btn-prev"></div> <div class="reviews__btn-next"></div>
                       <div class="reviews__item-holder">
                           <b class="reviews__item-title">
                               Николай Петров
@@ -134,7 +136,9 @@
                           «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
                       </p>
                   </li>
-                   <li class="reviews__item  slider__item">
+                   <li class="reviews__item  slider__item  reviews__item--none">
+                      <div class="reviews__quotes"></div>
+                      <div class="reviews__btn-prev"></div> <div class="reviews__btn-next"></div>
                       <div class="reviews__item-holder">
                           <b class="reviews__item-title">
                             Юрий Шатунов
@@ -145,7 +149,9 @@
                           «Я думал, круче чем я, ничего нет! Увидев это приложение, я понял, что ошибался! Ставлю 5+ Буду советовать всем своим друзьям.»
                       </p>
                   </li>
-                   <li class="reviews__item  slider__item">
+                   <li class="reviews__item  slider__item  reviews__item--none">
+                      <div class="reviews__quotes"></div>
+                      <div class="reviews__btn-prev"></div> <div class="reviews__btn-next"></div>
                       <div class="reviews__item-holder">
                           <b class="reviews__item-title">
                               Юрий Петров
@@ -251,15 +257,15 @@
                 Остались вопросы? Свяжитесь с нами!
             </div>
             <div class="contacts__items-holder">
-            <div class="contacts__item">
+            <div class="contacts__item  contacts__tell">
                 <b class="contacts__item-title">Звоните:</b><br>
                 <a class="contacts__item-tel  contacts__item--style" href="tel:+78125556666">+7(812) 555-66-66</a>
             </div>
-            <div class="contacts__item">
+            <div class="contacts__item  contacts__email">
                 <b class="contacts__item-title">Пишите:</b><br>
                 <a class="contacts__item-email  contacts__item--style" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
             </div>
-            <div class="contacts__item  contacts__item--width">
+            <div class="contacts__item  contacts__addres  contacts__item--width">
                 <b class="contacts__item-title">Приезжайте в гости:</b>
                 <a class="contacts__item-address  contacts__item--style" href="#">ул.Большая Конюшенна, 19/8</a>
             </div>

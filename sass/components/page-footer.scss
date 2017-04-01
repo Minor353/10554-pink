@@ -37,7 +37,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 38px;
-        padding-top: 38px;
+        padding-top: 100px;
     }
     
     .page-footer__link-logo{
@@ -46,3 +46,12 @@
 }
 
 /*******************************************/
+
+/*******************Desktop ver.******************************/
+
+@media (min-width: $desk) {
+     .page-footer {
+        padding: 0 10px;
+        padding-top: 28px;
+    }
+}

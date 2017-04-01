@@ -63,6 +63,15 @@
     
     .research__holder {
         display: flex;
+        padding-top: 30px;
+    }
+    
+    .research__timer {
+        margin-right: 70px;
+        margin-left: 5px;
+        img {
+            height: 345px;
+        }
     }
     
     .research__content {
@@ -73,12 +82,15 @@
     .research__title {
         line-height: 1em;
         margin-bottom: 15px;
+        width: auto;
+        margin-bottom: 26px;
     }
     
     .research__content-text {
         line-height: 1.6em;
         font-size: 18px;
-        margin-bottom: 25px;
+        margin-bottom: 34px;
+        padding-right: 36px;
     }
     
     .research__link {

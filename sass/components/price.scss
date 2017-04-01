@@ -227,16 +227,31 @@
         padding-top: 60px;
         padding-bottom: 70px;
     }
+    
+    .price__items {
+        margin-left: -34px;
+        width: 944px;
+    }
+    
     .price__item {
-       width: 232px;
+       width: 280px;
+    }
+    
+    .price__access {
+        height: 58px;
     }
     
     .price__access--show {
         padding-left: 20px;
     }
     
-    .price__items {
-        margin-left: 20px;
+    
+    .price__title {
+        padding: 20px 0;
+    }
+    
+    .price__title-hidden {
+        height: 96px;
     }
        
     .contest__description {

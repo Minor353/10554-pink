@@ -36,7 +36,7 @@
           
           <form class="contest__form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="contest__user-date-wrapper">
-             <fieldset class="contest__user-date  container  contest__user-date--style">
+             <fieldset class="contest__user-date  contest__form-container  contest__user-date--style">
                  <div class="contest__user-date-holder">
                       <label class="contest__form-label" for="second-name">Фамилия:</label>
                       <input class="contest__input" type="text" name="second-name" placeholder="Укажите фамилию *" id="second-name" required>
@@ -54,9 +54,10 @@
                  
               </fieldset>
                 
-                <div class="contest__mobile-bg">
-              <fieldset class="contest__user-date  container  contest__user-achieve">
+                <div class="contest__mobile-bg  contest__mobile-bg-achive">
+              <fieldset class="contest__user-date  contest__form-container  contest__user-achieve">
                   <legend class="contest__form-legend">Ваши безбашенные достижения в путешествии</legend>
+                  <div class="contest__user-achieve-wrapper">
                   <label class="contest__label-chekbox">
                       <input class="contest__chekbox" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" checked>
                       <span class="contest__chekbox-indicator"></span>
@@ -92,11 +93,13 @@
                       <span class="contest__chekbox-indicator"></span>
                       Разгромил отель
                   </label>
+                  </div>
               </fieldset>
                 </div>
                 
-              <fieldset class="contest__user-date  container  contest__user-date-contact">
+              <fieldset class="contest__user-date  contest__form-container  contest__user-date-contact">
                  <legend class="contest__form-legend">Контактная информация</legend>
+                    <div class="contest__user-date-contact-wrapper">
                      <div class="contest__form-holder">
                           <label class="contest__form-label  contest__form-label--position" for="tel-num">Номер телефона</label>
                           <input class="contest__input" type="tel" name="tel-num" id="tel-num" placeholder="Номер, пожалуйста">
@@ -106,10 +109,11 @@
                           <label class="contest__form-label  contest__form-label--position contest__form-label--margin" for="email">Адрес почты</label>
                           <input class="contest__input" type="email" name="email-address" id="email" placeholder="Введите почту*" required>
                     </div>
+                  </div>
               </fieldset>
               
-              <div class="contest__mobile-bg">
-              <fieldset class="contest__user-date  container  contest__user-soft">
+              <div class="contest__mobile-bg  contest__mobile-bg-soft">
+              <fieldset class="contest__user-date  contest__form-container  contest__user-soft">
                   <legend class="contest__form-legend">С каким приложением путешествовали?</legend>
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="IOS">
@@ -131,13 +135,13 @@
               </fieldset>
                 </div>
               </div>
-              <fieldset class="contest__user-date  container">
+              <fieldset class="contest__user-date  contest__form-container  contest__user-date-review">
                   <legend class="contest__form-legend">Опишите свои эмоции</legend>
                   <textarea class="contest__input  contest__input--width" name="recall" id="recall" cols="10" rows="6"  placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
               </fieldset>
-              <div class="contest__btn-wrapper  container">
+              <div class="contest__btn-wrapper  contest__form-container">
               <button class="contest__btn" type="submit">Отправить форму</button>
-              <div class="contest__reminder">* -Обязательные поля</div>
+              <div class="contest__reminder">* -Обязательные <span class="contest__reminder--visibility">для заполнения</span> поля</div>
               </div>
           </form>
           
