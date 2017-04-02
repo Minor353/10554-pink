@@ -5,6 +5,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-watch");
   grunt.loadNpmTasks("grunt-postcss");
   grunt.loadNpmTasks("grunt-sass");
+  grunt.loadNpmTasks("css-mqpacker");
 
   grunt.initConfig({
     sass: {
@@ -21,7 +22,8 @@ module.exports = function(grunt) {
           processors: [
             require("autoprefixer")({browsers: [
               "last 2 versions"
-            ]})
+            ]}),
+              require("css-mqpacker")({sort: true})
           ]
         },
         src: "css/*.css"
