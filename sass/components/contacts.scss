@@ -44,6 +44,20 @@
     border-top: 32px solid $white;
     border-bottom: 0;
 }
+
+ .contacts__map {
+    background: url("../../img/bg-map-mobile@1x.png") no-repeat center;
+    width: 320px;
+    height: 200px;
+     
+     @media (min-resolution: 144dpi),(min-resolution: 1.5dppx)  {
+      background-image: url(../../bg-map-mobile@2x.jpg);
+    }
+}
+
+
+
+
 /********************************************/
 
 /***************Tablet ver.******************/
@@ -68,7 +82,32 @@
     .contacts__item--width {
         width: 220px;
     }
+    
+    .contacts__decoration {
+        position: absolute;
+        right: 0px;
+        bottom: -78px;
+        width:0;
+        height:0;
+        border: 353px solid transparent;
+        border-top: 80px solid $white;
+        border-bottom: 0;
+    }
+    
+    .contacts__map {
+        background: url("../../img/bg-map-tablet@1x.jpg") no-repeat center;
+        width: 700px;
+        height: 375px;
+     
+         @media (min-resolution: 144dpi),(min-resolution: 1.5dppx)  {
+          background-image: url(../../bg-map-tablet@2x.jpg);
+    }
 }
+    
+   
+}
+    
+    
 
 /********************************************/
 
@@ -104,4 +143,27 @@
     .contacts__email {
         order: 3;
     }
+    
+    .contacts__decoration {
+        position: absolute;
+        right: 0px;
+        bottom: -118px;
+        width:0;
+        height:0;
+        border: 480px solid transparent;
+        border-top: 120px solid $white;
+        border-bottom: 0;
+}
+    
+    .contacts__map {
+        background: url("../../img/bg-map-desktop@1x.jpg") no-repeat center;
+        width: 960px;
+        height: 525px;
+     
+         @media (min-resolution: 144dpi),(min-resolution: 1.5dppx)  {
+          background-image: url(../../bg-map-desktop@2x.jpg);
+    }
+}
+    
+    
 }

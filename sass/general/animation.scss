@@ -1,0 +1,24 @@
+/*Page-header*/
+
+.main-nav__link:hover {
+    color: $pink;
+}
+
+.main-nav__link:active {
+    color: $pink;
+    opacity: 0.3;
+}
+
+
+/*download-page*/
+
+.download-page__link--btn:hover {
+    color: $pink;
+    background: $white;
+}
+
+.download-page__link--btn:active {
+    color: $pink;
+    opacity: 0.3;
+}
+

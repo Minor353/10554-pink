@@ -24,3 +24,16 @@ $ashen:#c6cace;
 
 $dark-ashen:#535e6a;
 /***********/
+
+$retina:(min-resolution: 144dpi),(min-resolution: 1.5dppx);
+
+/*
+
+ 
+ 
+
+ @media (min-resolution: 144dpi),(min-resolution: 1.5dppx)  {
+      background-image: url(../../img/bg-back-mobile@2x.jpg);
+    }
+  
+*/
