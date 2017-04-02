@@ -16,7 +16,7 @@
               <button class="main-nav__toggle" type="button"></button>
               </div>
                   <ul class="main-nav__items">
-                      <li class="main-nav__item"><a class="main-nav__link" href="">Главная</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="index.html">Главная</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
@@ -32,7 +32,11 @@
           
           <div class="user-gallery__user-post  user-gallery__user-post--position">
               <div class="user-gallery__user-top">Панорама дня</div>
-              <img class="user-gallery__user-foto  user-gallery__user-foto--top" src="img/panorama-mobile@1x.jpg" alt="user-foto">
+                  <picture>
+                     <source media="(min-width: 1024px)" srcset="img/panorama-desktop@1x.jpg 1x, img/panorama-desktop@2x.jpg 2x">
+                     <source media="(min-width: 768px)" srcset="img/panorama-tablet@1x.jpg 1x, img/panorama-tablet@2x.jpg 2x">
+                     <img class="user-gallery__user-foto  user-gallery__user-foto--top" src="img/panorama-mobile@1x.jpg" srcset="img/panorama-mobile@2x.jpg 2x" alt="user-foto" >
+                </picture>
               <div class="user-gallery__holder-top">
                   <div class="user-gallery__items">
                       <div class="user-gallery__user-name user-gallery__items--inine">Анна</div> <div class="user-gallery__time-writing user-gallery__items--inine">(5 минут назад)</div>
@@ -43,7 +47,7 @@
                         задавайте свои вопросы!
                       </div>        
                   <div class="user-gallery__likes">
-                       <div class="user-gallery__like"></div><span class="user-gallery__likes-timer">Нравится: 215</span>
+                       <div class="user-gallery__like"></div><div class="user-gallery__likes-timer">Нравится: 215</div>
                   </div>
                   </div>
               </div>
@@ -52,7 +56,11 @@
           <div class="user-gallery__wrapper  container">
           <div class="user-gallery__user-post-wrapper">
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="img/photo-1-mobile@1x.jpg" alt="user-foto">
+               <picture>
+                     <source media="(min-width: 1024px)" srcset="img/photo-1-desktop@1x.jpg 1x, img/photo-1-desktop@2x.jpg 2x">
+                     <source media="(min-width: 768px)" srcset="img/photo-1-tablet@1x.jpg 1x, img/photo-1-tablet@2x.jpg 2x">
+                     <img class="user-gallery__user-foto" src="img/photo-1-mobile@1x.jpg" srcset="img/photo-1-mobile@2x.jpg 2x" alt="user-foto" >
+                </picture>
                  <div class="user-gallery__items">
                   <div class="user-gallery__user-name  user-gallery__items--inine">Левон</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(5 часов назад)</div>
                   <div class="user-gallery__user-text">
@@ -60,72 +68,92 @@
                         руки к нам попал.
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 356</span>
+                  <div class="user-gallery__like"></div> <div class="user-gallery__likes-timer">Нравится: 356</div>
               </div>
               </div> 
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="img/photo-2-mobile@1x.jpg" alt="user-foto">
+              <picture>
+                     <source media="(min-width: 1024px)" srcset="img/photo-2-desktop@1x.jpg 1x, img/photo-2-desktop@2x.jpg 2x">
+                     <source media="(min-width: 768px)" srcset="img/photo-2-tablet@1x.jpg 1x, img/photo-2-tablet@2x.jpg 2x">
+                     <img class="user-gallery__user-foto" src="img/photo-2-mobile@1x.jpg" srcset="img/photo-2-mobile@2x.jpg 2x" alt="user-foto" >
+                </picture>
                  <div class="user-gallery__items">
                   <div class="user-gallery__user-name  user-gallery__items--inine">Антон</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(12 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Соседи будут рады!
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 666</span>
+                  <div class="user-gallery__like"></div> <div class="user-gallery__likes-timer">Нравится: 666</div>
               </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="img/photo-3-mobile@1x.jpg" alt="user-foto">
+              <picture>
+                     <source media="(min-width: 1024px)" srcset="img/photo-3-desktop@1x.jpg 1x, img/photo-3-desktop@2x.jpg 2x">
+                     <source media="(min-width: 768px)" srcset="img/photo-3-tablet@1x.jpg 1x, img/photo-3-tablet@2x.jpg 2x">
+                     <img class="user-gallery__user-foto" src="img/photo-3-mobile@1x.jpg" srcset="img/photo-3-mobile@2x.jpg 2x" alt="user-foto" >
+                </picture>
                  <div class="user-gallery__items">
                   <div class="user-gallery__user-name  user-gallery__items--inine">Борис</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(20 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Здесь могла быть ваша цитата о высоком и вечном.
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 215</span>
+                  <div class="user-gallery__like"></div> <div class="user-gallery__likes-timer">Нравится: 215</div>
               </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="img/photo-4-mobile@1x.jpg" alt="user-foto">
+                <picture>
+                     <source media="(min-width: 1024px)" srcset="img/photo-4-desktop@1x.jpg 1x, img/photo-4-desktop@2x.jpg 2x">
+                     <source media="(min-width: 768px)" srcset="img/photo-4-tablet@1x.jpg 1x, img/photo-4-tablet@2x.jpg 2x">
+                     <img class="user-gallery__user-foto" src="img/photo-4-mobile@1x.jpg" srcset="img/photo-4-mobile@2x.jpg 2x" alt="user-foto" >
+                </picture>
                  <div class="user-gallery__items">
                   <div class="user-gallery__user-name  user-gallery__items--inine">Сергей</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(25 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Самая кубанская в мире!
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 4</span>
+                  <div class="user-gallery__like"></div> <div class="user-gallery__likes-timer">Нравится: 4</div>
               </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="img/photo-5-mobile@1x.jpg" alt="user-foto">
+               <picture>
+                     <source media="(min-width: 1024px)" srcset="img/photo-5-desktop@1x.jpg 1x, img/photo-5-desktop@2x.jpg 2x">
+                     <source media="(min-width: 768px)" srcset="img/photo-5-tablet@1x.jpg 1x, img/photo-5-tablet@2x.jpg 2x">
+                     <img class="user-gallery__user-foto" src="img/photo-5-mobile@1x.jpg" srcset="img/photo-5-mobile@2x.jpg 2x" alt="user-foto" >
+                </picture>
                  <div class="user-gallery__items">
                   <div class="user-gallery__user-name  user-gallery__items--inine">Максим</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(40 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Где снег-то?
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 150</span>
+                  <div class="user-gallery__like"></div> <div class="user-gallery__likes-timer">Нравится: 150</div>
               </div>
               </div>
           </div>
           
           <div class="user-gallery__user-post">
-              <img class="user-gallery__user-foto" src="img/photo-6-mobile@1x.jpg" alt="user-foto">
+              <picture>
+                     <source media="(min-width: 1024px)" srcset="img/photo-6-desktop@1x.jpg 1x, img/photo-6-desktop@2x.jpg 2x">
+                     <source media="(min-width: 768px)" srcset="img/photo-6-tablet@1x.jpg 1x, img/photo-6-tablet@2x.jpg 2x">
+                     <img class="user-gallery__user-foto" src="img/photo-6-mobile@1x.jpg" srcset="img/photo-6-mobile@2x.jpg 2x" alt="user-foto" >
+                </picture>
                  <div class="user-gallery__items">
                   <div class="user-gallery__user-name  user-gallery__items--inine">Надежда</div> <div class="user-gallery__time-writing  user-gallery__items--inine">(45 часов назад)</div>
                   <div class="user-gallery__user-text">
                         Всем GM и взаимные лайки!
                   </div>        
               <div class="user-gallery__likes">
-                  <div class="user-gallery__like"></div> <span class="user-gallery__likes-timer">Нравится: 2560</span>
+                  <div class="user-gallery__like"></div> <div class="user-gallery__likes-timer">Нравится: 2560</div>
               </div>
               </div>
           </div>
@@ -140,7 +168,11 @@
       <section class="photo-editor">
          <div class="photo-editor__wrapper    container">
           <div class="photo-editor__picture">
-              <img src="img/photo-7-mobile@1x.jpg" alt="Foto">
+               <picture>
+                     <source media="(min-width: 1024px)" srcset="img/photo-7-desktop@1x.jpg 1x, img/photo-7-desktop@2x.jpg 2x">
+                     <source media="(min-width: 768px)" srcset="img/photo-7-tablet@1x.jpg 1x, img/photo-7-tablet@2x.jpg 2x">
+                     <img class="user-gallery__user-foto" src="img/photo-7-mobile@1x.jpg" srcset="img/photo-7-mobile@2x.jpg 2x" alt="user-foto" >
+                </picture>
           </div>
             <div class="photo-editor__items-wrapper">
              <div class="photo-editor__items">
