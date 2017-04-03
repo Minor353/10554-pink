@@ -132,6 +132,7 @@
     display: none;
 }
 
+
 .contest__label-radio input:enabled + .contest__radio-indicator,
 .contest__label-radio input:disabled + .contest__radio-indicator
 {
@@ -143,7 +144,8 @@
     vertical-align: middle;
     margin-right: 30px;
     background: $white;
-    div {
+    span {
+        display: block;
         width: 15px;
         height: 15px;
         border-radius: 50%;
@@ -152,7 +154,9 @@
     }
 }
 
-.contest__label-radio input:checked + .contest__radio-indicator div {
+
+
+.contest__label-radio input:checked + .contest__radio-indicator span {
    background: $pink;
 }
 

@@ -11,9 +11,13 @@
           <nav class="main-nav  container  main-nav--closed  main-nav--nojs">
               <div class="main-nav__panel">
               <div class="main-nav__logo">
-                 <a href="index.html">
-                      <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
-                 </a>
+                <a href="index.html">
+                 <picture>
+                     <source media="(min-width: 1024px)" srcset="img/logo-pink-white-desktop.svg">
+                     <source media="(min-width: 768px)" srcset="img/logo-pink-white-tablet.svg">
+                     <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
+                 </picture>
+                </a>
               </div>
               <button class="main-nav__toggle" type="button"></button>
               </div>
@@ -117,19 +121,19 @@
                   <legend class="contest__form-legend">С каким приложением путешествовали?</legend>
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="IOS" checked>
-                      <div class="contest__radio-indicator"><div></div></div>
+                      <span class="contest__radio-indicator"><span></span></span>
                       Pink для IOS
                   </label>
                   
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="Android">
-                      <div class="contest__radio-indicator"><div></div></div>
+                      <span class="contest__radio-indicator"><span></span></span>
                       Pink для Android
                   </label>
                   
                   <label class="contest__label-radio">
                       <input class="contest__radio" type="radio" name="soft-type" value="Windows">
-                      <div class="contest__radio-indicator"><div></div></div>
+                      <span class="contest__radio-indicator"><span></span></span>
                       Windows Phone
                   </label>
               </fieldset>
@@ -141,7 +145,7 @@
               </fieldset>
               <div class="contest__btn-wrapper  contest__form-container">
               <button class="contest__btn" type="submit">Отправить форму</button>
-              <div class="contest__reminder">* -Обязательные <span class="contest__reminder--visibility">для заполнения</span> поля</div>
+                  <div class="contest__reminder"><span class="contest__star">*</span> &#8212;Обязательные <span class="contest__reminder--visibility">для заполнения</span> поля</div>
               </div>
           </form>
           
@@ -162,5 +166,6 @@
                   Разработано <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
               </div>
     </footer>
+    <script type="application/javascript" src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js"></script>										
 </body>
 </html>

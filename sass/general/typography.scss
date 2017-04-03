@@ -1,17 +1,14 @@
 @font-face {
     font-family: OpenSans;
-    src: url(../fonts/opensans.woff);
-    src: url(../fonts/opensans.woff2)
+    src: url(../fonts/opensans.woff), url(../fonts/opensans.woff2);
 }
 
 @font-face {
     font-family: OpenSansBold;
-    src: url(../fonts/opensansbold.woff);
-    src: url(../fonts/opensansbold.woff2);
+    src: url(../fonts/opensansbold.woff), url(../fonts/opensansbold.woff2);
 }
 
 @font-face {
     font-family: OpenSansLight;
-    src: url(../fonts/opensanslight.woff);
-    src: url(../fonts/opensanslight.woff2);
+    src: url(../fonts/opensanslight.woff), url(../fonts/opensanslight.woff2);
 }

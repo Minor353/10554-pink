@@ -5,6 +5,10 @@
     display: none;
 }
 
+.price__holder {
+    overflow-x: hidden;
+}
+
 .slider__toggle {
     display: inline-block;
     width: 7px;
@@ -60,7 +64,7 @@
     width:0;
     height:0;
     border: 25px solid transparent;
-    border-bottom: 0;
+    border-bottom: 0 solid transparent;
     border-right: 100vw solid $coffe;
 }
 
@@ -156,7 +160,7 @@
         right: 0px;
         top: -54px;
         border: 55px solid transparent;
-        border-bottom: 0;
+        border-bottom: 0 solid transparent;
         border-right: 100vw solid $coffe;
     }
     
@@ -270,7 +274,7 @@
         right: 0px;
         top: -89px;
         border: 90px solid transparent;
-        border-bottom: 0;
+        border-bottom: 0 solid transparent;
         border-right: 100vw solid $coffe;
     }
     

@@ -11,7 +11,13 @@
           <nav class="main-nav  container  main-nav--closed  main-nav--nojs">
               <div class="main-nav__panel">
               <div class="main-nav__logo">
-                  <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
+                <a href="index.html">
+                 <picture>
+                     <source media="(min-width: 1024px)" srcset="img/logo-pink-white-desktop.svg">
+                     <source media="(min-width: 768px)" srcset="img/logo-pink-white-tablet.svg">
+                     <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
+                 </picture>
+                  </a>
               </div>
               <button class="main-nav__toggle" type="button"></button>
               </div>
@@ -209,5 +215,6 @@
                   Разработано <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
               </div>
     </footer>
+    <script type="application/javascript" src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js"></script>										
 </body>
 </html>
