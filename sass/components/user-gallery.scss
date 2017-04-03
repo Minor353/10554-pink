@@ -3,7 +3,7 @@
 .user-gallery__title {
     text-align: center;
     color: $ashen;
-    font-family: OpenSansLight;
+    font-family: OpenSansLight , Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 24px;
     background: url(../../img/bg-back-mobile@1x.jpg) no-repeat center; 
@@ -21,7 +21,7 @@
 .user-gallery__text-preview {
     text-align: center;
     color: $dark-ashen;
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 2.1em;
     font-size: 14px; 
     padding-top: 46px;
@@ -36,7 +36,7 @@
 
 
 .user-gallery__user-top {
-    font-family: OpenSansBold;
+    font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 2em;
     font-size: 12px;
     text-transform: uppercase;
@@ -68,7 +68,7 @@
 }
 
 .user-gallery__user-text {
-    font-family: OpenSans;
+    font-family: OpenSans, Verdana, sans-serif;
     line-height: 1.7em;
     font-size: 14px;
 }

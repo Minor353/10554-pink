@@ -10,14 +10,14 @@
 }
 
 .contacts__title {
-    font-family: OpenSansLight;
+    font-family: OpenSansLight, Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 24px;
     margin-bottom: 35px;
 }
 
 .contacts__item-title {
-    font-family: OpenSansBold;
+    font-family: OpenSansBold, Verdana, sans-serif;
     line-height: 1.5em;
     font-size: 18px;
 }
@@ -28,7 +28,7 @@
 
 .contacts__item--style {
     text-decoration: none;
-    font-family: OpenSansLight;
+    font-family: OpenSansLight, Verdana, sans-serif;
     line-height: 1.2em;
     font-size: 24px;
     color: #de6183;
