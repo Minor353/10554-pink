@@ -51,7 +51,7 @@
     height: 200px;
      
      @media (min-resolution: 144dpi),(min-resolution: 1.5dppx)  {
-      background-image: url(../../bg-map-mobile@2x.jpg);
+      background-image: url(../../img/bg-map-mobile@2x.jpg);
     }
 }
 
@@ -102,7 +102,7 @@
         height: 375px;
      
          @media (min-resolution: 144dpi),(min-resolution: 1.5dppx)  {
-          background-image: url(../../bg-map-tablet@2x.jpg);
+          background-image: url(../../img/bg-map-tablet@2x.jpg);
     }
 }
     
@@ -163,7 +163,7 @@
         height: 525px;
      
          @media (min-resolution: 144dpi),(min-resolution: 1.5dppx)  {
-          background-image: url(../../bg-map-desktop@2x.jpg);
+          background-image: url(../../img/bg-map-desktop@2x.jpg);
     }
 }
     
