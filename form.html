@@ -12,11 +12,8 @@
               <div class="main-nav__panel">
               <div class="main-nav__logo">
                 <a href="index.html">
-                 <picture>
-                     <source media="(min-width: 1024px)" srcset="img/logo-pink-white-desktop.svg">
-                     <source media="(min-width: 768px)" srcset="img/logo-pink-white-tablet.svg">
-                     <img src="img/logo-pink-white-mobile.svg" alt="Pink logo">
-                 </picture>
+                 <div class="main-nav__logo">
+              </div>
                 </a>
               </div>
               <button class="main-nav__toggle" type="button"></button>
@@ -24,7 +21,7 @@
                   <ul class="main-nav__items">
                       <li class="main-nav__item"><a class="main-nav__link" href="index.html">Главная</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
-                      <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
+                      <li class="main-nav__item"><a class="main-nav__link  active" href="form.html">Конкурс</a></li>
                       <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/">HTML Academy</a></li>
                   </ul>
           </nav>
@@ -144,13 +141,13 @@
                   <textarea class="contest__input  contest__input--width" name="recall" id="recall" cols="10" rows="6"  placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
               </fieldset>
               <div class="contest__btn-wrapper  contest__form-container">
-              <button class="contest__btn" type="submit">Отправить форму</button>
+                  <button class="contest__btn" type="submit"><span>Отправить форму</span></button>
                   <div class="contest__reminder"><span class="contest__star">*</span> &#8212;Обязательные <span class="contest__reminder--visibility">для заполнения</span> поля</div>
               </div>
           </form>
           
           
-                 <div class="contest__popup-wrapper-success  js__popup-success-none">
+                 <div class="contest__popup-wrapper-success  popup-success--not-active">
                       <div class="contest__popup-success">
                          <div class="contest__popup-text-wrapper">
                               <span class="contest__popup-main">Ваша заявка отправлена</span>
@@ -159,7 +156,7 @@
                           <div class="contest__popup-btn-wrapper"><button class="contest__popup-btn">Закрыть окно</button></div>
                       </div>
                   </div>
-                  <div class="contest__popup-wrapper-error  js__popup-error-none">
+                  <div class="contest__popup-wrapper-error  popup-error--not-active">
                       <div class="contest__popup-error">
                           <span class="contest__popup-main">Что-то пошло не так!</span>
                           <p class="contest__popup-text">Проверьте поля, выделеные красным, скорее всего вы забыли их заполнить</p>
@@ -172,7 +169,7 @@
       
       <footer class="page-footer  container">
               <div class="page-footer__link-logo">
-                  <a href="index.html"><img class="page-footer__logo" src="img/Pink-footer.png" alt="Pink logo"></a>
+                  <a href="index.html"><div class="page-footer__logo"></div></a>
               </div>
               
               <div class="socials">

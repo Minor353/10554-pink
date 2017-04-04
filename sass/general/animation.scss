@@ -1,5 +1,7 @@
 /*Page-header*/
 
+
+
 .main-nav__link:hover {
     color: $pink;
 }
@@ -10,6 +12,18 @@
 }
 
 
+
+@media (min-width: $desk) {
+     .main-nav__logo:hover {
+        background: url("../../img/logo-pink-white-desktop-hover.svg") no-repeat center;
+    }
+    
+    .main-nav__logo:active {
+        background: url("../../img/logo-pink-white-desktop.svg") no-repeat center;
+        opacity: 0.3;
+    }
+}
+
 /*download-page*/
 
 .download-page__link--btn:hover {
@@ -18,7 +32,123 @@
 }
 
 .download-page__link--btn:active {
-    color: $pink;
+    span {
+        opacity: 0.3;
+    }
+}
+
+
+/*reviews*/
+
+.slider__toggle:hover {
+    background: $dark-ashen;
+}
+
+.slider__toggle:active {
+    background: $milk;
+}
+
+
+/*contacts*/
+
+.contacts__item-email:hover {
+    text-decoration: underline;
+    color: $black;
+}
+.contacts__item-email:active {
+    text-decoration: none;
     opacity: 0.3;
 }
 
+
+/*page-footer*/
+.page-footer__logo:hover {
+    background: url("../../img/footer-logo-hover.png") no-repeat center;
+}
+
+.page-footer__logo:active {
+    background: url("../../img/Pink-footer.png") no-repeat center;
+    opacity: 0.3;
+}
+
+.socials__link:hover {
+    border-color: $black;
+}
+
+.socials__link:active {
+    opacity: 0.3;
+}
+
+.page-footer__copyright-link:hover {
+    background: url("../../img/htmlacademy-hover.svg") no-repeat center;
+}
+
+.page-footer__copyright-link:active {
+    opacity: 0.3;
+}
+
+
+/*photo editor*/
+
+input[type=range]::-webkit-slider-thumb:active {
+    background: $pink;
+}
+
+input[type=range]::-moz-range-thumb:active {
+    background: $pink;
+}
+
+.photo-editor__button-confirm:hover {
+    background: $pink;
+    color: $white;
+}
+
+.photo-editor__button-confirm:active {
+    span {
+        color: $white;
+        opacity: 0.3;
+        }
+}
+
+.photo-editor__button-cancel:hover {
+    border-color: $dark-grey;
+    color: $dark-grey;
+}
+
+.photo-editor__button-cancel:active {
+    background: $dark-grey;
+    span {
+        color: $white;
+        opacity: 0.3;
+    }
+}
+
+/*form*/
+
+.contest__input:hover {
+    border-color: $black;
+}
+
+.contest__input:focus {
+    outline:none;
+    border-color: $pink;
+}
+
+.contest__label-chekbox:hover input:enabled + .contest__chekbox-indicator, .contest__label-chekbox:hover input:disabled + .contest__chekbox-indicator {
+    border-color: $black;
+}
+
+.contest__label-chekbox:active input:enabled + .contest__chekbox-indicator, .contest__label-chekbox:active input:disabled + .contest__chekbox-indicator {
+    border-color: $pink;
+}
+
+.contest__btn:hover {
+    background: #1c9b5e;
+}
+
+.contest__btn:active {
+    background: #1c9b5e;
+    span {
+        opacity: 0.3;
+    }
+}

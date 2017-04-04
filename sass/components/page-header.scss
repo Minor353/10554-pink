@@ -10,6 +10,12 @@
     }
 }
 
+.main-nav__logo {
+    width: 74px;
+    height: 22px;
+    background: url("../../img/logo-pink-white-mobile.svg") no-repeat center;
+}
+
 .main-nav__panel {
     display: flex;
     justify-content: space-between;
@@ -56,7 +62,13 @@
 @media (min-width: $tablet) {
    .main-nav__panel {
         padding: 40px 65px;  
-    }    
+    }   
+    
+    .main-nav__logo {
+        width: 146px;
+        height: 40px;
+        background: url("../../img/logo-pink-white-tablet.svg") no-repeat center;
+    }
 }
 
 /*************************************************************/
@@ -64,8 +76,18 @@
 /*******************Desktop ver.******************************/
 
 @media (min-width: $desk) {
+    .main-nav__logo {
+        width: 146px;
+        height: 40px;
+        background: url("../../img/logo-pink-white-desktop.svg") no-repeat center;
+    }
+    
     body {
         position: relative;
+    }
+    
+    .active {
+        text-decoration: underline;
     }
     
     .page-header {
