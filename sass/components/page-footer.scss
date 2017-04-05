@@ -43,17 +43,15 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 33px;
-        padding-top: 24px;
+        padding-top: 30px;
     }
     
     .page-footer__link-logo{
         margin-bottom: 49px;
+        margin-left: 0;
     }
     
-    .socials {
-        margin-left: auto;
-        margin-right: 102px;
-    }
+  
 }
 
 /*******************************************/
@@ -63,10 +61,14 @@
 @media (min-width: $desk) {
      .page-footer {
         padding: 0;
-        padding-top: 28px;
+        padding-top: 60px;
     }
     
     .page-footer__copyright {
         font-size: 18px;
     }
+    
+    .page-footer__logo {
+        background: url("../../img/logo-pink-footer-desktop.svg") no-repeat center;
+}
 }

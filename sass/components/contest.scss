@@ -429,8 +429,8 @@
         padding: 15px 57px;
     }
     .contest__reminder {
-        display: inline-block;
-        margin-left: 145px;
+        display: block;
+        margin: 0 auto;
     }
     
     .contest__input--width {
@@ -603,9 +603,12 @@
         padding-top: 70px;
     }
     
+    
     .contest__reminder {
-        margin-left: 332px;;
+        display: block;
+        margin: 0 auto;
     }
+    
     
     .contest__reminder--visibility {
         display: inline-block;

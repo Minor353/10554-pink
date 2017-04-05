@@ -1,7 +1,14 @@
+.map {
+    position: relative;
+    iframe {
+        height: 200px;
+    }
+}
+
 .map__decoration {
     position: absolute;
-    right: 0px;
-    bottom: -43px;
+    right: 0;
+    top: -2px;
     width:0;
     height:0;
     border: 160px solid transparent;
@@ -13,25 +20,35 @@
 @media (min-width: $tablet) {
      .map__decoration {
         position: absolute;
-        right: 0px;
-        bottom: -72px;
+        right: 0;
         width:0;
         height:0;
-        border: 353px solid transparent;
+        border: 50vw solid transparent;
         border-top: 73px solid $white;
         border-bottom: 0;
     }
+    
+    .map {
+    iframe {
+        height: 376px;
+    }
+}
 }
 
 @media (min-width: $desk) {
       .map__decoration {
         position: absolute;
-        right: 0px;
-        bottom: -118px;
+        right: 0;
         width:0;
         height:0;
-        border: 480px solid transparent;
+        border: 50vw solid transparent;
         border-top: 120px solid $white;
         border-bottom: 0;
+}
+    
+     .map {
+    iframe {
+        height: 500px;
+    }
 }
 }
