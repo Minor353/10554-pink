@@ -595,18 +595,20 @@
         height: 100px;
     }
     
+    .contest__reminder {
+        margin: 0;
+    }
+    
     .contest__btn-wrapper {
         width: 960px;
         box-sizing: border-box;
         margin: 0 auto;
         padding: 0 10px;
         padding-top: 70px;
-    }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     
-    
-    .contest__reminder {
-        display: block;
-        margin: 0 auto;
     }
     
     
@@ -656,6 +658,7 @@
         text-align: center;
         padding: 35px 82px 50px 82px;
       }
+    
     
 }
 

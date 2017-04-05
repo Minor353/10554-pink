@@ -152,3 +152,17 @@ input[type=range]::-moz-range-thumb:active {
         opacity: 0.3;
     }
 }
+
+
+ 
+    
+.contest__label-radio:hover input:enabled + .contest__radio-indicator,
+.contest__label-radio:hover input:disabled + .contest__radio-indicator {
+        border-color: $black;
+    }
+
+.contest__label-radio:active input:enabled + .contest__radio-indicator,
+.contest__label-radio:active input:disabled + .contest__radio-indicator {
+        border-color: $pink;
+    }
+    
