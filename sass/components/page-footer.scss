@@ -1,7 +1,7 @@
 /**************Mobile ver.*******************/
 
 .page-footer__link-logo{
-    text-align: center;
+    margin-left: 78px;
     margin-bottom: 34px;
 }
 
@@ -42,13 +42,18 @@
         box-sizing: border-box;
         justify-content: space-between;
         align-items: center;
-        padding: 0 38px;
-        padding-top: 100px;
+        padding: 0 33px;
+        padding-top: 24px;
     }
     
     .page-footer__link-logo{
-    margin-bottom: 40px;
-}
+        margin-bottom: 49px;
+    }
+    
+    .socials {
+        margin-left: auto;
+        margin-right: 102px;
+    }
 }
 
 /*******************************************/
@@ -57,7 +62,11 @@
 
 @media (min-width: $desk) {
      .page-footer {
-        padding: 0 10px;
+        padding: 0;
         padding-top: 28px;
+    }
+    
+    .page-footer__copyright {
+        font-size: 18px;
     }
 }

@@ -153,7 +153,7 @@
 @media (min-width: $tablet) {
     .price {
         padding-top: 42px;
-        padding-bottom: 70px;
+        padding-bottom: 75px;
     }
     
     .price__decoration {
@@ -236,8 +236,8 @@
 
 @media (min-width: $desk) {
     .price {
-        padding-top: 60px;
-        padding-bottom: 70px;
+        padding-top: 55px;
+        padding-bottom: 99px;
     }
     
     .price__items {
@@ -254,16 +254,22 @@
     }
     
     .price__access--show {
+        font-size: 18px;
         padding-left: 20px;
     }
     
     
     .price__title {
+        font-size: 18px;
         padding: 20px 0;
     }
     
+    .price__value {
+        line-height: 1em;
+        font-size: 24px;
+    }
     .price__title-hidden {
-        height: 96px;
+        height: 92px;
     }
        
     .contest__description {

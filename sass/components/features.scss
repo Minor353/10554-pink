@@ -21,7 +21,7 @@
     background: $coffe;
     padding-top: 55px;
     position: relative;
-    overflow-x: hidden;
+    
 }
 
 .features__decoration {
@@ -162,6 +162,7 @@
     
     .features__items {
         width: 100%;
+        overflow-x: hidden;
     }
     
     .features__item {
@@ -218,12 +219,15 @@
         }
         .features__item-caption {
             display: block;
-            padding: 0 20px;
+            padding-left: 29px;
+            padding-right: 14px;
         }
         
         .features__item-description {
             box-sizing: border-box;
-            padding: 0 20px;
+            padding-left: 16px;
+            padding-top: 9px;
+            margin-bottom: 0;
         }
     }
     

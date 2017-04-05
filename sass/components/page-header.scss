@@ -61,7 +61,10 @@
 
 @media (min-width: $tablet) {
    .main-nav__panel {
-        padding: 40px 65px;  
+        padding: 29px 41px; 
+       padding-right: 35px;
+       padding-bottom: 40px;;
+        align-items: flex-end;
     }   
     
     .main-nav__logo {
@@ -106,7 +109,7 @@
         box-sizing: border-box;
         align-items: center;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 10px;
     }
     
     .main-nav__items {
@@ -117,6 +120,7 @@
     
     .main-nav__panel {
         padding: 0;  
+        padding-bottom: 11px;
         border: 0;
     }
     
